@@ -31,3 +31,6 @@ My interest in the mechanisms at work in the formation and evolution of politica
     <em><a href="http://crevaj.ca/" target="_blank" style="font-weight: bold; text-decoration: underline;">Chaire de recherche sur l’Évaluation des actions publiques à l’égard des jeunes et des populations vulnérables</a></em> 
     (École nationale d'administration publique). Each of these experiences has uniquely contributed to my understanding and perspective on democratic processes and political behavior.
 </p>
+
+
+Here is my <em><a href="https://drive.google.com/file/d/1lTAIHcQ7zVnk9IncDohKUdnRDkUza2Jt/view?usp=sharing" target="_blank" style="font-weight: bold; text-decoration: underline;">Resume</a></em>.
