@@ -14,12 +14,6 @@ My interest in the mechanisms at work in the formation and evolution of politica
 </p>
 
 
-</p>
-                <figure style="text-align: center;">
-    <img src="https://csdc-cecd.ca/csdcdb/images/phpEC4wDA.jpeg" alt="Graduate Image" style="max-width: 100%; height: auto;"/>
-    <figcaption>At Gas Works Park, in beautiful Seattle!</figcaption>
-</figure>
-
  <p>
   As a Student Researcher at the 
   <a href="https://csdc-cecd.ca/fr/members/students-fr/?studentid=506" target="_blank" style="font-weight: bold; text-decoration: underline;">Center for the Study of Democratic Citizenship</a>, 
