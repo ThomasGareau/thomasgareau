@@ -34,8 +34,6 @@ My interest in the mechanisms at work in the formation and evolution of politica
 
 <section id="research-interests">
     <h3>Research Interests</h3>
-    <br>
-    <p>
         My research interests extend to inquiries surrounding 'welfare chauvinism', the determinants of solidarity, the influence of exogenous shocks on electoral choices, and the spectrum of political attitudes towards redistribution within the North American context.
 </body>
 </html>
