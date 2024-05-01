@@ -32,11 +32,6 @@ My interest in the mechanisms at work in the formation and evolution of politica
     (École nationale d'administration publique). Each of these experiences has uniquely contributed to my understanding and perspective on democratic processes and political behavior.
 </p>
 
-
-
-
-
-<br>
 <section id="research-interests">
     <h3>Research Interests</h3>
     <br>
