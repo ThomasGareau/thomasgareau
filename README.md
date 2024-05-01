@@ -1,4 +1,4 @@
-<p>Welcome to my GitHub page! Currently pursuing a <strong>Master's degree in Political Science</strong> at <strong>McGill University</strong> as an Eren Graduate Fellow, I am an incoming PhD student at <strong>Cornell University's Department of Government</strong>. 
+<p>Welcome to my GitHub page! Currently pursuing a <strong>Master's degree in Political Science</strong> at <strong>McGill University</strong>, I am an incoming PhD student at <strong>Cornell University's Department of Government</strong>. 
 <p>
 My interest in the mechanisms at work in the formation and evolution of political attitudes in <strong>Quebec, Canada</strong> and the <strong>United States</strong> has been the driving force behind my academic aspirations, as well as the common thread of my theoretical and quantitative training. My research is currently supported by the <i>Fonds de recherche du Québec – Société et culture </i> (FRQSC) and the Social Sciences and Humanities Research Council of Canada (SSHRC).</p>
 
