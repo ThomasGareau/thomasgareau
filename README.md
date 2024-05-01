@@ -31,9 +31,3 @@ My interest in the mechanisms at work in the formation and evolution of politica
     <em><a href="http://crevaj.ca/" target="_blank" style="font-weight: bold; text-decoration: underline;">Chaire de recherche sur l’Évaluation des actions publiques à l’égard des jeunes et des populations vulnérables</a></em> 
     (École nationale d'administration publique). Each of these experiences has uniquely contributed to my understanding and perspective on democratic processes and political behavior.
 </p>
-
-<section id="research-interests">
-    <h3>Research Interests</h3>
-        My research interests extend to inquiries surrounding 'welfare chauvinism', the determinants of solidarity, the influence of exogenous shocks on electoral choices, and the spectrum of political attitudes towards redistribution within the North American context.
-</body>
-</html>
