@@ -6,13 +6,17 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
+
+
+<p>
+My work has also been featured in peer-reviewed journals and major media outlets, such as <em>Le Monde</em>.
+</p>
+
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 <div class="content-container">
-<p>
-My work has also been featured in peer-reviewed journals and major media outlets, such as <em>Le Monde</em>.
-</p>
+
 
 <section id="publications">
   <h2>Peer-Reviewed Publications</h2>
