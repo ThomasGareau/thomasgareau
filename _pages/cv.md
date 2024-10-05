@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
+You can find a PDF version of my CV [here](/Users/thomasgp/Academic Website/files/GareauPaquette_CV_10052024.pdf).
 ---
 
 **Education**  
