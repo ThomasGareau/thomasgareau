@@ -42,21 +42,23 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 ---
 
-**Work Experience**  
-* **Graduate Research Assistant**, McGill University, Montréal, Canada (May 2023 - Present)  
-  Supervisor: Prof. Dietlind Stolle, Éric Bélanger  
-  * Project on public opinion and support for redistribution policies
+**Research Experience**  
 
-* **Graduate Research Assistant**, Université Laval, Montréal, Canada (Sept. 2022 - Present)  
-  Supervisor: Prof. Valérie-Anne Mahéo  
-  * Research on immigrant integration and policy feedback
+* **Graduate Research Assistant**, *Prof. Valérie-Anne Mahéo (Université Laval)*, Montréal, Canada (Sept. 2022 - Present)  
 
-* **Coder (Manifesto Project)**, WZB Berlin Social Science Center, Germany (remote) (Sept. 2022 - Present)  
-  * Content analysis of party platforms from international elections
+* **Graduate Research Assistant**, *Prof. Dietlind Stolle (McGill University)*, Montréal, Canada (May 2023 - Sept. 2024)  
 
-* **Quantitative Research Assistant**, Université de Sherbrooke, Sherbrooke, Canada (Jan. 2021 - Present)  
-  Supervisor: Prof. Jean-François Daoust  
-  * Study of regionalism and political attitudes in Quebec
+* **Coder (Manifesto Project)**, *WZB Berlin Social Science Center*, Germany (remote) (Sept. 2022 - June 2024)  
+
+* **Graduate Research and Teaching Assistant**, *Prof. Éric Bélanger (McGill University)*, Montréal, Canada (June 2022 - April 2023)  
+
+* **Quantitative Research Assistant**, *Prof. Jean-François Daoust (Université de Sherbrooke)*, Sherbrooke, Canada (Jan. 2021 - Sept. 2024) 
+
+* **Quantitative Research Assistant**, *École nationale d'administration publique (ENAP)*, Montréal, Canada (April 2021 - Dec. 2022)  
+  **Research Chair on the Evaluation of Public Policies for Vulnerable Populations**  
+
+* **Quantitative Research Assistant**, *Prof. Ruth Dassonneville (Université de Montréal)*, Montréal, Canada (Oct. 2021 - May 2022)  
+  **Canada Research Chair in Electoral Democracy**  
 
 ---
 
