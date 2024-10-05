@@ -13,8 +13,6 @@ I previously received a **[Master's degree from McGill University's Department o
 
 My research has been supported by the *Fonds de recherche du Québec – Société et culture* (FRQSC) and the Social Sciences and Humanities Research Council of Canada (SSHRC).
 
-![Graduate Image](https://app.csdc-cecd.ca/photos/phpEC4wDA.jpeg){: .align-center}
-*At Gas Works Park, in beautiful Seattle!*
 
 As a Student Researcher at the **[Center for the Study of Democratic Citizenship](https://csdc-cecd.ca/fr/members/students-fr/?studentid=506)**, I have the opportunity to collaborate with amazing scholars across several institutions. My current research roles include working with **[Prof. Valérie-Anne Mahéo](https://www.fss.ulaval.ca/notre-faculte/repertoire-du-personnel/valerie-anne-maheo)** at Université Laval, **[Prof. Jean-François Daoust](https://www.usherbrooke.ca/politique-appliquee/ecole/personnel/personnel-enseignant/jean-francois-daoust)** at Université de Sherbrooke, and **[Prof. Dietlind Stolle](https://www.mcgill.ca/politicalscience/dietlind-stolle)** at McGill University.
 
