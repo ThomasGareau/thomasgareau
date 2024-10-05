@@ -67,12 +67,10 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 ---
 
-**Publications**  
-* Daoust, J.-F., & **Gareau-Paquette, T.** (2023). Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021). *Regional & Federal Studies*, 1-26.  
-**Gareau-Paquette, T.**, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." <em>French Politics</em>. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a></li>
-    <li><strong>Gareau-Paquette, T.</strong>, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.</li>
-  </ul>
-
+**Peer-Reviewed Publications**  
+* Daoust, J.-F., & **Gareau-Paquette, T.** (2023). "Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021)." *Regional & Federal Studies*, 1-26. <a href="https://www.tandfonline.com/doi/full/10.1080/13597566.2023.2233422" target="_blank" style="font-weight: bold;">Read here</a>  
+* **Gareau-Paquette, T.**, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." *French Politics*. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a>  
+* **Gareau-Paquette, T.**, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
 
 ---
 
