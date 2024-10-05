@@ -14,7 +14,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 ---
 
 **Education**  
-* **PhD - Political Science**, Cornell University, Ithaca, NY (Starting Sept. 2024)  
+* **Ph.D. - Government**, Cornell University, Ithaca, NY (Starting Sept. 2024)  
   Subfields: American and Comparative Politics
 
 * **Master of Arts - Political Science**, McGill University, Montréal, Canada (Sept. 2022 - Aug. 2024)  
