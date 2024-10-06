@@ -28,7 +28,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
   Lectures: Mathematics for Social Scientists III, Introduction to Python
 
 * **Bachelor of Science - Political Science**, Université de Montréal, Montréal, Canada (Sept. 2019 - June 2022)  
-  GPA: 4.28/4.3  
+  GPA: 4.28/4.30  
   Relevant Courses: Political Behavior, Quantitative Methods, Comparative Politics, Canadian Politics  
   **Awarded**: Best Political Science Cumulative GPA Award (2019-2022 Cohort)
 
@@ -37,7 +37,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
   Courses: Congress, American Politics, Electoral Targeting
 
 * **Undergraduate Certificate - Big Data Analysis**, Université de Montréal, Montréal, Canada (Sept. 2021 - April 2022)  
-  GPA: 4.20/4.3  
+  GPA: 4.20/4.30  
   Courses: Data Visualization, Machine Learning, Computational Social Sciences
 
 ---
