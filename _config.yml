@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Thomas Gareau-Paquette | Ph.D. Student @ Cornell Government"
+title                    : "Thomas Gareau-Paquette"
 title_separator          : "-"
 name                     : &name "Thomas Gareau-Paquette"
 description              : &description "Welcome to my website! I am a PhD student at Cornell University's Department of Government."
