@@ -35,7 +35,7 @@ My work has also been featured in peer-reviewed journals and major media outlets
       <a href="https://www.lemonde.fr/en/opinion/article/2023/10/31/in-some-european-countries-there-is-a-significant-discrepancy-between-strong-government-support-for-ukraine-and-more-ambivalent-public-opinion_6217360_23.html" target="_blank" style="font-weight: bold;">Read here (EN)</a>
     </li>
 
-    <li>Mahéo, V.A., & <strong>Gareau-Paquette, T.</strong> (2023, October 19). "Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d’Accueil et d’Intégration des Immigrants et la pleine participation au Québec." <em>Ministère de l’Immigration, de la Francisation et de l’Intégration</em>.</li>
+<li>Mahéo, V.A., & <strong>Gareau-Paquette, T.</strong> (2023, October 19). "Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d’Accueil et d’Intégration des Immigrants et la pleine participation au Québec." <em>Ministère de l’Immigration, de la Francisation et de l’Intégration</em>.</li>
   </ul>
 
 <h2>Current Projects and Working Papers (Selected)</h2>
@@ -54,4 +54,4 @@ My work has also been featured in peer-reviewed journals and major media outlets
   
   <li>Stolle, D., <strong>Gareau-Paquette, T.</strong>, & Harell, A. "From Local to Global: Assessing European Solidarity through the Lens of Ukraine Aid."</li>
 
-  </ul>
+ </ul>
