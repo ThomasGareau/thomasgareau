@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Thomas Gareau-Paquette (Ph.D. Student @ Cornell)"
+title: "Thomas Gareau-Paquette (Ph.D. Student in Government - Cornell University)"
 author_profile: true
 redirect_from: 
   - /about/
