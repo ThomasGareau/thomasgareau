@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! I am a PhD student in the **[Department of Government](https://government.cornell.edu/)** at **Cornell University**, focusing on the political economy of housing. My research examines how housing, as both an economic asset and a symbolic commodity, influences the political behaviour of homeowners and renters. I am particularly interested in how housing can emerge as a new political cleavage within major North American metropolitan areas.
+Welcome to my website! I am a PhD student in the **[Department of Government](https://government.cornell.edu/)** at **Cornell University**.
 
 Prior to Cornell, I pursued a **[Master's degree in Political Science](https://www.mcgill.ca/politicalscience/grad/admissions/ma)** at **McGill University** as the inaugural recipient of the Eren Graduate Fellow. My research was supported by the *Fonds de recherche du Québec – Société et culture* (FRQSC), the *Social Sciences and Humanities Research Council of Canada* (SSHRC) and the **[Center for the Study of Democratic Citizenship](https://csdc-cecd.ca/alumni/)**. I also hold a **[Bachelor's degree in Political Science (Honours) and Data Science](https://pol.umontreal.ca/programmes-cours/premier-cycle/baccalaureat-science-politique/)** from the **Université de Montréal (UdeM)**.
 
