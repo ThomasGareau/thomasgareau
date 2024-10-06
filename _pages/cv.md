@@ -30,7 +30,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 * **Bachelor of Science - Political Science**, Université de Montréal, Montréal, Canada (Sept. 2019 - June 2022)  
   GPA: 4.28/4.3  
   Relevant Courses: Political Behavior, Quantitative Methods, Comparative Politics, Canadian Politics  
-  **Awarded**: Best Political Science Cumulative GPA Award (2023)
+  **Awarded**: Best Political Science Cumulative GPA Award (2019-2022 Cohort)
 
 * **Killam Fellow (Fulbright)**, University of Washington, Seattle, USA (March 2022 - June 2022)  
   GPA: 3.97/4.00  
