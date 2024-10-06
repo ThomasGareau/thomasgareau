@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Thomas Gareau-Paquette"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD student in American and Comparative Politics at Cornell University's Department of Government."
+  bio              : "I am a PhD student in American and Comparative Politics at Cornell University's Department of Government. I hold a B.A. in Political Science from Université de Montréal and an M.A. in Political Science from McGill University."
   location         : "Ithaca, NY"
-  employer         : "Cornell University\nPast: * McGill University (M.A.)\n* Université de Montréal (B.A.)"
+  employer         : "Cornell University"
   uri              : # URL
   email            : "tg454@cornell.edu" 
 
