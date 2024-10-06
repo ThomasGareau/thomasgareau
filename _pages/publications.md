@@ -38,7 +38,6 @@ My work has also been featured in peer-reviewed journals and major media outlets
     <li>Mahéo, V.A., & <strong>Gareau-Paquette, T.</strong> (2023, October 19). "Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d’Accueil et d’Intégration des Immigrants et la pleine participation au Québec." <em>Ministère de l’Immigration, de la Francisation et de l’Intégration</em>.</li>
   </ul>
 
-  <ul>
 <h2>Current Projects and Working Papers (Selected)</h2>
 <ul>
   <li>Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit at *Journal of Politics*.</li>
@@ -56,5 +55,3 @@ My work has also been featured in peer-reviewed journals and major media outlets
   <li>Stolle, D., <strong>Gareau-Paquette, T.</strong>, & Harell, A. "From Local to Global: Assessing European Solidarity through the Lens of Ukraine Aid."</li>
 
   </ul>
-</section>
-</div>
