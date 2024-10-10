@@ -19,8 +19,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 * **Master of Arts - Political Science**, McGill University, Montréal, Canada (Sept. 2022 - Aug. 2024)  
   GPA: 4.00/4.00  
-  Thesis: *The Determinants of Preferences for Redistributive Policies in Canada*  
-  Relevant Courses: POLI 618 (Quantitative Analysis for Political Science), POLI 666 (Causal Inference), POLI 636 (Theoretical Approaches to Quebec Politics), POLI 680 (Social Change in Advanced Industrialized Democracies), POLI 619 (The Politics of Race)  
+  Thesis: *Higher Education, Higher Stakes: Education’s Role in Shaping Redistribution Preferences and Vote Choice in Canada*
   **Awarded**: Eren Graduate Recruitment Fellowship, Centre for the Study of Democratic Citizenship Entrance Stipend
 
 * **ICPSR Summer Program**, University of Michigan, Ann Arbor, USA (July 2023 - Aug. 2023)  
