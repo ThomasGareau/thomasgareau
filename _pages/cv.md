@@ -23,7 +23,7 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
   **Awarded**: Eren Graduate Recruitment Fellowship, Centre for the Study of Democratic Citizenship Entrance Stipend
 
 * **ICPSR Summer Program**, University of Michigan, Ann Arbor, USA (July 2023 - Aug. 2023)  
-  Courses: Regression Analysis II, Multilevel Models I, Machine Learning, Time Series Analysis I  
+  Courses: *Regression Analysis II*, *Multilevel Models I*, *Machine Learning*, *Time Series Analysis I*  
   Lectures: Mathematics for Social Scientists III, Introduction to Python
 
 * **Bachelor of Science - Political Science**, Université de Montréal, Montréal, Canada (Sept. 2019 - June 2022)  
