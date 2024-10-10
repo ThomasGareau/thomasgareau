@@ -15,28 +15,17 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 **Education**  
 * **Ph.D. - Government**, Cornell University, Ithaca, NY (Sept. 2024 -)  
-  Subfields: American and Comparative Politics
 
 * **Master of Arts - Political Science**, McGill University, Montréal, Canada (Sept. 2022 - Aug. 2024)  
-  GPA: 4.00/4.00  
   Thesis: *Higher Education, Higher Stakes: Education’s Role in Shaping Redistribution Preferences and Vote Choice in Canada*
-  **Awarded**: Eren Graduate Recruitment Fellowship, Centre for the Study of Democratic Citizenship Entrance Stipend
 
 * **ICPSR Summer Program**, University of Michigan, Ann Arbor, USA (July 2023 - Aug. 2023)  
-  Courses: *Regression Analysis II*, *Multilevel Models I*, *Machine Learning*, *Time Series Analysis I*  
-  Lectures: Mathematics for Social Scientists III, Introduction to Python
 
 * **Bachelor of Science - Political Science**, Université de Montréal, Montréal, Canada (Sept. 2019 - June 2022)  
-  GPA: 4.28/4.30  
-  **Awarded**: Best Political Science Cumulative GPA Award (2019-2022 Cohort)
 
 * **Killam Fellow (Fulbright)**, University of Washington, Seattle, USA (March 2022 - June 2022)  
-  GPA: 3.97/4.00  
-  Courses: Congress, American Politics, Electoral Targeting
 
 * **Undergraduate Microprogram - Data Science for the Social Sciences**, Université de Montréal, Montréal, Canada (Sept. 2021 - April 2022)  
-  GPA: 4.20/4.30  
-  Courses: Data Visualization, Machine Learning, Computational Social Sciences
 
 ---
 
