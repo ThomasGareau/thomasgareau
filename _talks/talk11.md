@@ -1,5 +1,5 @@
 ---
-title: "Out of the Blue? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election"
+title: "Out of the Blue? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election (with E. Bélanger)"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-06-01-cpsa-parti-conservateur

@@ -1,5 +1,5 @@
 ---
-title: "Regionalism(s) and Vote Choice in Quebec"
+title: "Regionalism(s) and Vote Choice in Quebec (with J.-F. Daoust)"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-09-17-udem-vote-choice

@@ -1,5 +1,5 @@
 ---
-title: "How Stable are Citizens’ Attitudes toward Independence and Who Changes Their Minds? A Longitudinal Study of Scotland and Québec"
+title: "How Stable are Citizens’ Attitudes toward Independence and Who Changes Their Minds? A Longitudinal Study of Scotland and Québec (with J.-F. Daoust)"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-06-03-cpsa-independence-attitudes

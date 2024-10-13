@@ -1,5 +1,5 @@
 ---
-title: "How Stable Are Key Political Values and Beliefs of Canadian Voters?"
+title: "How Stable Are Key Political Values and Beliefs of Canadian Voters? (with J.-F. Daoust)"
 collection: talks
 type: "Talk"
 permalink: /talks/2022-09-18-apsa-political-values

@@ -1,5 +1,5 @@
 ---
-title: "Recent Immigrants’ Experiences with Integration Services: An Assessment of Access to Services across the Province"
+title: "Recent Immigrants’ Experiences with Integration Services: An Assessment of Access to Services across the Province (with V.-A. Mahéo)"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-11-20-pathways-integration

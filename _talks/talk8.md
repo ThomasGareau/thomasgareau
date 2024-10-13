@@ -1,5 +1,5 @@
 ---
-title: "Regionalism(s) in Quebec: Analyzing Citizens’ Attitudes and Voting Behaviour"
+title: "Regionalism(s) in Quebec: Analyzing Citizens’ Attitudes and Voting Behaviour  (with J.-F. Daoust)"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-09-03-apsa-vote-behaviour

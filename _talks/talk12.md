@@ -1,5 +1,5 @@
 ---
-title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence"
+title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence (with J.-F. Daoust)"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-06-01-cpsa-scotland-independence
