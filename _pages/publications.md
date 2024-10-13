@@ -40,11 +40,11 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
 
 <h2>Current Projects and Working Papers (Selected)</h2>
 <ul>
-  <li>Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit at *Journal of Politics*.</li>
+  <li>Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit.
   
-  <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election." Revise and Resubmit at the *Canadian Journal of Political Science/Revue canadienne de science politique*. </li>
+  <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election." Revise and Resubmit.
   
-  <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> "How Stable are Attitudes toward Scotland Independence and Who Changes Their Minds?"</li> Revise and Resubmit at *Nations and Nationalism*.</li>
+  <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> "How Stable are Attitudes toward Scotland Independence and Who Changes Their Minds?" Revise and Resubmit at </em>Nations and Nationalism</em>. </li>
   
   <li><strong>Gareau-Paquette, T.</strong>, & Stolle, D. "Linking Europe's Aid to Public Support towards Ukraine."</li>
   
