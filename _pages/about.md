@@ -15,6 +15,8 @@ I am currently working with [Prof. Valérie-Anne Mahéo](https://www.fss.ulaval.
 
 In addition to my current role, I have held research positions with [Prof. Jean-François Daoust](https://www.usherbrooke.ca/politique-appliquee/ecole/personnel/personnel-enseignant/jean-francois-daoust) (Université de Sherbrooke and University of Edinburgh), [Prof. Dietlind Stolle](https://www.mcgill.ca/politicalscience/dietlind-stolle) and [Prof. Eric Bélanger](https://www.mcgill.ca/politicalscience/eric-belanger) (both at McGill University), the [Manifesto Project](https://manifesto-project.wzb.eu/) (WZB Berlin Social Science Center), the *[Canada Research Chair in Electoral Democracy](https://www.chairedemocratie.com/)* (Université de Montréal), and the *[Chaire de recherche sur l’Évaluation des actions publiques à l’égard des jeunes et des populations vulnérables](http://crevaj.ca/)* (École nationale d'administration publique).
 
+Feel free to contact me at **tg454[at]cornell.edu**.
+
 
 ## Research Interests
 
