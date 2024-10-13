@@ -1,5 +1,5 @@
 ---
-title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence (with J.-F. Daoust)"
+title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-06-01-cpsa-scotland-independence
@@ -8,4 +8,4 @@ date: 2023-06-01
 location: "Toronto, Ontario, Canada"
 ---
 
-A longitudinal analysis of attitudes toward Scotland's independence, presented at the CPSA Annual Meeting.
+A longitudinal analysis of attitudes toward Scotland's independence, presented at the CPSA Annual Meeting. Presented with J.-F. Daoust.

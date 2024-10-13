@@ -1,5 +1,5 @@
 ---
-title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence  (with J.-F. Daoust)"
+title: "The Making of a 'Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-09-03-apsa-scotland-independence
@@ -8,4 +8,4 @@ date: 2023-09-03
 location: "Los Angeles, California, USA"
 ---
 
-A longitudinal study analyzing attitudes toward Scotland's independence, presented at the APSA Annual Meeting.
+A longitudinal study analyzing attitudes toward Scotland's independence, presented at the APSA Annual Meeting. Presented with J.-F. Daoust.

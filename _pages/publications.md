@@ -44,7 +44,7 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
   
   <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election." Revise and Resubmit.
   
-  <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> "How Stable are Attitudes toward Scotland Independence and Who Changes Their Minds?" Revise and Resubmit at <em>Nations and Nationalism</em>. </li>
+  <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> "How Stable are Attitudes toward Scotland Independence and Who Changes Their Minds?" Revise and Resubmit.
   
   <li><strong>Gareau-Paquette, T.</strong>, & Stolle, D. "Linking Europe's Aid to Public Support towards Ukraine."</li>
   
