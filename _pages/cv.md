@@ -50,9 +50,8 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 ---
 
 **Skills**  
-* **Programming**: R, Git, LaTeX (Advanced); JavaScript, C, Python (Beginner)  
-* **Statistical Analysis**: Multilevel modeling, Causal Inference, Machine Learning  
-* **Languages**: English, French (advanced), Italian (intermediate)
+* **Programming**: R, Git (Advanced), LaTeX (Intermediate); JavaScript, C, Python (Beginner)  
+* **Languages**: English, French (advanced), Italian (Beginner)
 
 ---
 
