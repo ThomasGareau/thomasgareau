@@ -41,24 +41,29 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 * **Quantitative Research Assistant**, *Prof. Jean-François Daoust (Université de Sherbrooke)*, Sherbrooke, Canada (Jan. 2021 - Sept. 2024) 
 
-* **Quantitative Research Assistant**, *École nationale d'administration publique (ENAP)*, Montréal, Canada (April 2021 - Dec. 2022)  
-  **Research Chair on the Evaluation of Public Policies for Vulnerable Populations**  
+* **Quantitative Research Assistant**, *Research Chair on the Evaluation of Public Policies for Vulnerable Populations (École nationale d'administration publique)*, Montréal, Canada (April 2021 - Dec. 2022)  
 
-* **Quantitative Research Assistant**, *Prof. Ruth Dassonneville (Université de Montréal)*, Montréal, Canada (Oct. 2021 - May 2022)  
-  **Canada Research Chair in Electoral Democracy**  
+* **Quantitative Research Assistant**, *Canada Research Chair in Electoral Democracy (Université de Montréal)*, Montréal, Canada (Oct. 2021 - May 2022)  
+  
 
 ---
 
 **Skills**  
-* **Programming**: R, Git (Advanced), LaTeX (Intermediate); JavaScript, C, Python (Beginner)  
-* **Languages**: English, French (advanced), Italian (Beginner)
+* **Programming**: R, Git (Advanced), LaTeX, STATA (Intermediate); JavaScript, C, Python (Beginner)  
+* **Languages**: English, French (Advanced), Italian (Beginner)
 
 ---
 
 **Peer-Reviewed Publications**  
-* Daoust, J.-F., & **Gareau-Paquette, T.** (2023). "Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021)." *Regional & Federal Studies*, 1-26. <a href="https://www.tandfonline.com/doi/full/10.1080/13597566.2023.2233422" target="_blank" style="font-weight: bold;">Read here</a>  
-* **Gareau-Paquette, T.**, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." *French Politics*. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a>  
+* Daoust, J.-F., & **Gareau-Paquette, T.** (2023). "Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021)." *Regional & Federal Studies*, 1-26. <a href="https://www.tandfonline.com/doi/full/10.1080/13597566.2023.2233422" target="_blank" style="font-weight: bold;">Read here</a>
+
+* **Gareau-Paquette, T.**, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." *French Politics*. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a>
+
 * **Gareau-Paquette, T.**, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
+
+* Daoust, J.-F., & **Gareau-Paquette, T.** (Forthcoming). "How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999-2021)." *Nations and Nationalism*.  
+
+
 
 ---
 
