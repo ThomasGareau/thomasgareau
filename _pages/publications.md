@@ -18,8 +18,8 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
 <section id="publications">
   <h2>Peer-Reviewed Publications</h2>
   <ul>
-  
-  * **Gareau-Paquette, T.**, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
+ 
+* **Gareau-Paquette, T.**, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
 
 * Daoust, J.-F., & **Gareau-Paquette, T.** (Forthcoming). "How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999-2021)." *Nations and Nationalism*.  
 
