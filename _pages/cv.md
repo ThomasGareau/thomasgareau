@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaquette_CV_10052024.pdf).
+You can find a PDF version of my CV [here](http://thomasgp.com/files/TGP_CV_23112024.pdf).
 ---
 
 **Education**  
@@ -59,15 +59,16 @@ You can find a PDF version of my CV [here](http://thomasgp.com/files/GareauPaque
 
 * **Gareau-Paquette, T.**, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." *French Politics*. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a>
 
-* **Gareau-Paquette, T.**, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
+* **Gareau-Paquette, T.**, & Daoust, J.-F. (2024). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." *Canadian Journal of Political Science/Revue Canadienne de science politique*.  
 
-* Daoust, J.-F., & **Gareau-Paquette, T.** (Forthcoming). "How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999-2021)." *Nations and Nationalism*.  
+* Daoust, J.-F., & **Gareau-Paquette, T.** (2024). "How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999-2021)." *Nations and Nationalism*.  
 
 
 
 ---
 
 **Awards and Honours** 
+
 * **Sage Fellowship** (2024-2029) – Cornell University
 * **Best Political Science Cumulative GPA Award** (2023) – Université de Montréal  
 * **Canada Graduate Scholarship (CGS M)** (2022-2023) – SSHRC  
