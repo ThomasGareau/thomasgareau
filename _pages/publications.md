@@ -39,9 +39,8 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
 
 <h2>Current Projects and Working Papers (Selected)</h2>
 <ul>
-  
-* Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit.
-    
+
+<li>Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit.<li>
 
     <li><strong>Gareau-Paquette, T.</strong>, & Stolle, D. "Linking Europe's Aid to Public Support towards Ukraine."</li>
   
