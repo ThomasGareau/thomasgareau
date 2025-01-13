@@ -18,8 +18,8 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
 <section id="publications">
   <h2>Peer-Reviewed Publications</h2>
   <ul>
-    <li><strong>Gareau-Paquette, T.</strong>, & Daoust, J.-F. (Forthcoming). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.</li>
-        <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. (Forthcoming). "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election."  <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.</li>
+    <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. (Forthcoming). "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election."  <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.</li>
+    <li><strong>Gareau-Paquette, T.</strong>, & Daoust, J.-F. (2025). "Géographie politique de l’opinion publique québécoise et réévaluation du « mystère » de Québec." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.<a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/geographie-politique-de-lopinion-publique-quebecoise-et-reevaluation-du-mystere-de-quebec/62A379ADEA73CE3A323EB8E224DF9F47">Read here</a></li>
     <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> (2024). "How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999-2021)." <em>Nations and Nationalism</em>. <a href="https://onlinelibrary.wiley.com/doi/10.1111/nana.13062?af=R" target="_blank" style="font-weight: bold;">Read here</a></li>
     <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> (2023). "Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021)." <em>Regional & Federal Studies</em>, 1-26. <a href="https://www.tandfonline.com/eprint/K4ZI95VIEVNGGXEKSQRG/full?target=10.1080/13597566.2023.2233422" target="_blank" style="font-weight: bold;">Read here</a></li>
     <li><strong>Gareau-Paquette, T.</strong>, Dassonneville, R., Leal, A., Leblanc, J., Taylor, M., & Vandewalle, V. (2024). "Gender Affinity Voting in Recent Canadian Elections." <em>French Politics</em>. <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank" style="font-weight: bold;">Read here</a></li>
@@ -42,8 +42,6 @@ My work has been featured in peer-reviewed journals and major media outlets, suc
 * Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., <strong>Gareau-Paquette, T.</strong>, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., & Dassonneville, R. "Do Political Surveys Overestimate Affective Polarization?" Revise and Resubmit.
     
 
-    <li>Daoust, J.-F., & <strong>Gareau-Paquette, T.</strong> "How Stable are Attitudes toward Scotland Independence and Who Changes Their Minds?" Revise and Resubmit.
-  
     <li><strong>Gareau-Paquette, T.</strong>, & Stolle, D. "Linking Europe's Aid to Public Support towards Ukraine."</li>
   
     <li><strong>Gareau-Paquette, T.</strong> qesR: Easy Access to All Quebec Election Studies Datasets. [R package version]. <a href="https://github.com/ThomasGareau/qesR" target="_blank">GitHub</a>.</li>
