@@ -16,4 +16,4 @@ Feel free to contact me at **tg454[at]cornell.edu**.
 
 ## Research Interests
 
-My research is motivated by a strong interest in the formation and evolution of political attitudes and party politics across Quebec, Canada, the United States, and other post-industrial democracies. Specifically, my research interests extend to inquiries surrounding the politics of inequality, "welfare chauvinism," political attitudes toward the welfare state, and the political economy of housing. My methodological toolkit includes survey experiments, causal inference, and the analysis of large-scale survey data.
+I am driven by a deep interest in the mechanisms shaping the formation and evolution of political attitudes and the transformations of welfare states in Quebec, Canada, the United States and other post-industrial democracies. My research agenda examines how ongoing changes in economic structures and labour markets are reshaping political cleavages and welfare regimes. I also engage with questions related to territorial identities, changes in party systems, the origins of the "diploma divide," and the political economy of housing.
