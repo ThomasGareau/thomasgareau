@@ -8,9 +8,7 @@ redirect_from:
 
 **(Le français suit)**
 
-
-
-**Welcome to my website!** I am a PhD student in the [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) at **Cornell University**.
+I am a PhD student in the [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) at **Cornell University**.
 
 Prior to Cornell, I pursued a [Master's degree in Political Science](https://www.mcgill.ca/politicalscience/grad/admissions/ma) at **McGill University,** as the inaugural Eren Graduate Fellow. My research was supported by the *Fonds de recherche du Québec – Société et culture* (FRQSC), the *Social Sciences and Humanities Research Council of Canada* (SSHRC) and the *[Center for the Study of Democratic Citizenship](https://csdc-cecd.ca/alumni/)*. I also hold a [Bachelor's degree in Political Science (Honours) and Data Science](https://pol.umontreal.ca/programmes-cours/premier-cycle/baccalaureat-science-politique/) from the **Université de Montréal (UdeM)**.
 
@@ -22,7 +20,7 @@ I am driven by a deep interest in the mechanisms shaping the formation and evolu
 
 ---
 
-**Bienvenue sur mon site !** Je suis doctorant au [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) de **Cornell University**.
+Je suis doctorant au [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) de **Cornell University**.
 
 Avant de rejoindre Cornell, j'ai poursuivi une [maîtrise en science politique](https://www.mcgill.ca/politicalscience/grad/admissions/ma) à **l’Université McGill**, en tant que premier bénéficiaire de la bourse Eren Graduate Fellow. Ma recherche a été soutenue par le *Fonds de recherche du Québec – Société et culture* (FRQSC), le *Conseil de recherches en sciences humaines du Canada* (CRSH) et le *[Center for the Study of Democratic Citizenship](https://csdc-cecd.ca/alumni/)*. Je suis également titulaire d'un [baccalauréat en science politique (avec mention) et en science des données](https://pol.umontreal.ca/programmes-cours/premier-cycle/baccalaureat-science-politique/) de la **Université de Montréal (UdeM)**.
 
