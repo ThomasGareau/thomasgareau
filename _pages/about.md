@@ -16,7 +16,7 @@ I am driven by a deep interest in the mechanisms shaping the formation and evolu
 
 Feel free to contact me at **tg454[at]cornell.edu**.
 
----
+<hr style="border: 0; border-top: 3px solid #333; margin: 2rem 0;">
 
 Je suis étudiant au doctorat au [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) de l'**Université Cornell**.
 
