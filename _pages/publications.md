@@ -54,7 +54,11 @@ author_profile: true
     <section id="publications">
       <h2>Peer-Reviewed Publications</h2>
       <ul>
-        <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. (Forthcoming). "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.</li>
+        <li>Bélanger, E., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, & Mahéo, V.A. (2025). "A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.
+                  <span class="publication-links">
+            <a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/party-that-went-viral-the-drivers-of-support-for-the-parti-conservateur-du-quebec-in-the-2022-election/8EB77CFC3379440C8B8EA2191F35F8E3" target="_blank">Read here</a>
+          </span>
+        </li>
         
         <li><strong>Gareau-Paquette, T.</strong>, & Daoust, J.-F. (2025). "Géographie politique de l'opinion publique québécoise et réévaluation du « mystère » de Québec." <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>.
           <span class="publication-links">
