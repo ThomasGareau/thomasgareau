@@ -15,7 +15,7 @@ I hold an [Honours Bachelor’s degree in Political Science](https://pol.umontre
 
 My work investigates how changing economic structures and labour markets reshape political cleavages and welfare states in Québec, Canada, the United States, Western Europe, and other post-industrial democracies. I also study territorial identities, party-system change, the origins of the “diploma divide,” and the political economy of housing.
 
-From May to July 2025, I am a visiting researcher at the *Cluster of Excellence “The Politics of Inequality”* in Konstanz, Germany. Feel free to contact me at **tg454[at]cornell.edu**.
+From May to July 2025, I am on a research stay at the *Cluster of Excellence “The Politics of Inequality”* in Konstanz, Germany. Feel free to contact me at **tg454[at]cornell.edu**.
 
 <hr style="border: 0; border-top: 3px solid #333; margin: 2rem 0;">
 
@@ -25,4 +25,4 @@ Je détiens un [baccalauréat spécialisé en science politique](https://pol.umo
 
 Mes travaux portent sur la manière dont les transformations des structures économiques et des marchés du travail redéfinissent les clivages politiques et les États-providence au Québec, au Canada, aux États-Unis, en Europe de l’Ouest et dans d’autres démocraties post-industrielles. J’étudie également les identités territoriales, l’évolution des systèmes partisans, les origines du « clivage éducatif » et l’économie politique du logement.
 
-De mai à juillet 2025, je suis chercheur invité au *Cluster of Excellence « The Politics of Inequality »* à Konstanz, en Allemagne. N’hésitez pas à me joindre : **tg454[at]cornell.edu**. 
+De mai à juillet 2025, je suis en séjour de recherche au *Cluster of Excellence « The Politics of Inequality »* à Konstanz, en Allemagne. N’hésitez pas à me joindre : **tg454[at]cornell.edu**. 
