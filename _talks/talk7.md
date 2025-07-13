@@ -8,4 +8,3 @@ date: 2023-09-17
 location: "Montréal, Québec, Canada"
 ---
 
-A presentation on regional political behaviour in Quebec, presented at the CSDC McGill Lab.

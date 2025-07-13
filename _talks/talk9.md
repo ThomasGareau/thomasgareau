@@ -8,4 +8,3 @@ date: 2023-09-03
 location: "Los Angeles, California, USA"
 ---
 
-A longitudinal study analyzing attitudes toward Scotland's independence, presented at the APSA Annual Meeting. Presented with J.-F. Daoust.

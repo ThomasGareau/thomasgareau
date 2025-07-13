@@ -8,4 +8,3 @@ date: 2023-03-31
 location: "Québec, Québec, Canada"
 ---
 
-A presentation reassessing the effect of political trust on vote choice in Canada from 2000 to 2021, presented at the CSDC Student Conference.

@@ -8,4 +8,3 @@ date: 2023-11-20
 location: "Montréal, Québec, Canada"
 ---
 
-This presentation assesses access to integration services for recent immigrants in Québec, presented at the Pathways to Prosperity National Conference. Presented with V.-A. Mahéo.

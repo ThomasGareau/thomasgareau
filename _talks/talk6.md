@@ -8,4 +8,3 @@ date: 2023-09-17
 location: "Montréal, Québec, Canada"
 ---
 
-An analysis of regionalism and its influence on vote choice in Quebec, presented at the UdeM Electoral Democracy Seminar. Presented with J.-F. Daoust.

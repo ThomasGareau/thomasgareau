@@ -8,4 +8,3 @@ date: 2023-06-01
 location: "Toronto, Ontario, Canada"
 ---
 
-A longitudinal analysis of attitudes toward Scotland's independence, presented at the CPSA Annual Meeting. Presented with J.-F. Daoust.

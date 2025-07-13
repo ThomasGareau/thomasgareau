@@ -7,5 +7,3 @@ venue: "CPSA Annual Conference"
 date: 2022-06-03
 location: "Montréal, Québec, Canada"
 ---
-
-A longitudinal study on the stability of citizens' attitudes toward independence in Scotland and Québec, presented at the CPSA Annual Conference. Presented with J.-F. Daoust.

@@ -8,4 +8,3 @@ date: 2023-06-01
 location: "Toronto, Ontario, Canada"
 ---
 
-Served as the chair for the session on Governance and Provincial Politics at the CPSA Annual Meeting in 2023.
