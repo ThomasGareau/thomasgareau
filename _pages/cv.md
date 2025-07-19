@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-You can find a PDF version of my CV [here](http://thomasgp.com/files/TGP_CV_23112024.pdf).
+My CV is available [here](http://thomasgp.com/files/GareauPaquette_Resume_07192025.pdf).
 ---
 
