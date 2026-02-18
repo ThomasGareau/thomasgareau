@@ -52,7 +52,7 @@ author:
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
-  google_plus      : # Username
+  # google_plus    : # removed (service shut down)
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
@@ -120,12 +120,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter thomasgareau
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.png"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # set to "google-analytics-4" and add tracking_id when ready
   google:
     tracking_id          :
 

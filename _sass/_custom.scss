@@ -1,0 +1,277 @@
+/* ==========================================================================
+   CUSTOM STYLES - Academic site design overhaul
+   ========================================================================== */
+
+/*
+   Masthead refinements
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 2px solid $primary-color;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.greedy-nav {
+  .visible-links {
+    a {
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: none;
+
+      &:before {
+        height: 3px;
+        background: $primary-color;
+      }
+    }
+
+    li:first-child a {
+      font-weight: 700;
+      color: $primary-color;
+      font-size: 1.1em;
+    }
+  }
+}
+
+/*
+   Sidebar / author profile refinements
+   ========================================================================== */
+
+.author__avatar img {
+  border: 2px solid $border-color !important;
+  padding: 3px !important;
+  transition: $global-transition;
+
+  &:hover {
+    border-color: $primary-color !important;
+  }
+}
+
+.author__name {
+  color: $darker-gray;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: $gray;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.author__urls {
+  a {
+    font-size: 0.9em !important;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/*
+   Page content refinements
+   ========================================================================== */
+
+.page__content {
+  h2 {
+    color: $primary-color;
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 0.4em;
+    margin-top: 2em;
+    font-weight: 700;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba($link-color, 0.3);
+
+    &:hover {
+      border-bottom-color: $link-color;
+    }
+  }
+}
+
+.archive .page__content h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+/*
+   Publication list styles
+   ========================================================================== */
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    position: relative;
+    padding: 1em 0 1em 1.5em;
+    border-bottom: 1px solid $border-color;
+    line-height: 1.6;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1.4em;
+      width: 6px;
+      height: 6px;
+      background: $primary-color;
+      border-radius: 50%;
+    }
+  }
+}
+
+.pub-links {
+  display: inline-block;
+  margin-top: 0.3em;
+
+  a {
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: $link-color;
+    border: 1px solid rgba($link-color, 0.3);
+    border-radius: 3px;
+    padding: 0.15em 0.5em;
+    margin-right: 0.3em;
+    text-decoration: none !important;
+    transition: $global-transition;
+
+    &:hover {
+      background: $link-color;
+      color: #fff;
+      border-color: $link-color;
+    }
+  }
+}
+
+/*
+   Talk / conference list refinements
+   ========================================================================== */
+
+.list__item .archive__item {
+  padding: 0.8em 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.archive__item-title {
+  font-size: 1em;
+  font-weight: 600;
+
+  a {
+    color: $darker-gray;
+    text-decoration: none !important;
+    border-bottom: none !important;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.archive__item-excerpt {
+  color: $gray;
+}
+
+/*
+   Collapsible French bio (homepage)
+   ========================================================================== */
+
+.lang-toggle {
+  margin-top: 2em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  summary {
+    cursor: pointer;
+    padding: 0.7em 1em;
+    font-weight: 600;
+    color: $primary-color;
+    background: $lighter-gray;
+    border-bottom: 1px solid $border-color;
+    transition: $global-transition;
+
+    &:hover {
+      background: darken($lighter-gray, 3%);
+    }
+
+    &::-webkit-details-marker {
+      color: $primary-color;
+    }
+  }
+
+  > div {
+    padding: 0.5em 1em;
+  }
+}
+
+/*
+   Footer refinements
+   ========================================================================== */
+
+.page__footer {
+  background: $lighter-gray;
+  border-top: 2px solid $border-color;
+
+  footer {
+    max-width: $x-large;
+    margin: 0 auto;
+    padding: 1.5em 1em;
+  }
+}
+
+.page__footer-follow {
+  .social-icons {
+    li {
+      a {
+        color: $gray;
+        &:hover { color: $primary-color; }
+      }
+    }
+  }
+}
+
+.page__footer-copyright {
+  color: $gray;
+  font-size: $type-size-7;
+}
+
+/*
+   Button refinements
+   ========================================================================== */
+
+.btn--info {
+  background-color: $primary-color;
+  border-radius: $border-radius;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+
+  i {
+    margin-right: 0.4em;
+  }
+}
+
+/*
+   Archive page heading
+   ========================================================================== */
+
+.archive h1 {
+  color: $primary-color;
+  font-weight: 700;
+  border-bottom: 3px solid $primary-color;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
