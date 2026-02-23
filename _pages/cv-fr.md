@@ -7,4 +7,4 @@ author_profile: true
 
 {% include base_path %}
 
-<p><a href="{{ base_path }}/files/cv.pdf" class="btn btn--info" target="_blank"><i class="fas fa-download"></i> Télécharger le CV (PDF)</a></p>
+<p>Vous trouverez mon CV ici: <a href="{{ base_path }}/files/cv.pdf" target="_blank">CV (PDF)</a></p>
