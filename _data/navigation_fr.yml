@@ -1,0 +1,13 @@
+# liens principaux
+main:
+  - title: "Publications"
+    url: /fr/publications/
+
+  - title: "Logiciels"
+    url: /fr/software/
+
+  - title: "Conférences"
+    url: /fr/talks/
+
+  - title: "CV"
+    url: /fr/cv/

@@ -275,3 +275,23 @@
   padding-bottom: 0.3em;
   margin-bottom: 0.8em;
 }
+
+/*
+   Language switch button (EN/FR)
+   ========================================================================== */
+
+.masthead__menu-item--lang a {
+  border: 1px solid $primary-color;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem !important;
+  margin-left: 0.75rem !important;
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $primary-color !important;
+}
+
+.masthead__menu-item--lang a:hover {
+  background: $primary-color;
+  color: #fff !important;
+}

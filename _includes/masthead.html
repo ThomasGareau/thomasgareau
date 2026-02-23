@@ -1,20 +1,77 @@
 {% include base_path %}
 
+{% assign current_path = page.url | default: '/' %}
+{% assign is_fr = false %}
+{% if current_path == '/fr' or current_path == '/fr/' or current_path contains '/fr/' %}
+  {% assign is_fr = true %}
+{% endif %}
+
+{% if is_fr %}
+  {% assign nav_items = site.data.navigation_fr.main %}
+{% else %}
+  {% assign nav_items = site.data.navigation.main %}
+{% endif %}
+
+{% assign brand_url = '/' %}
+{% assign switch_url = '/fr/' %}
+{% assign switch_label = 'FR' %}
+{% if is_fr %}
+  {% assign switch_label = 'EN' %}
+  {% assign brand_url = '/fr/' %}
+{% endif %}
+
+{% case current_path %}
+  {% when '/', '/about/', '/about.html' %}
+    {% if is_fr %}
+      {% assign switch_url = '/' %}
+    {% else %}
+      {% assign switch_url = '/fr/' %}
+    {% endif %}
+
+  {% when '/publications/' %}
+    {% assign switch_url = '/fr/publications/' %}
+  {% when '/fr/publications/' %}
+    {% assign switch_url = '/publications/' %}
+
+  {% when '/talks/' %}
+    {% assign switch_url = '/fr/talks/' %}
+  {% when '/fr/talks/' %}
+    {% assign switch_url = '/talks/' %}
+
+  {% when '/cv/' %}
+    {% assign switch_url = '/fr/cv/' %}
+  {% when '/fr/cv/' %}
+    {% assign switch_url = '/cv/' %}
+
+  {% when '/software/' %}
+    {% assign switch_url = '/fr/software/' %}
+  {% when '/fr/software/' %}
+    {% assign switch_url = '/software/' %}
+
+  {% else %}
+    {% if is_fr %}
+      {% assign switch_url = '/' %}
+    {% else %}
+      {% assign switch_url = '/fr/' %}
+    {% endif %}
+{% endcase %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ brand_url }}">{{ site.title }}</a></li>
+          {% for link in nav_items %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--lang"><a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
