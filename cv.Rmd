@@ -267,6 +267,8 @@ header-includes:
 
 \begin{description}[font=$\bullet$]
 
+\item {CMHC-SSHRC Housing Research Doctoral Scholarship -- \textbf{CMHC \& SSHRC} -- 2025 (40,000\$ CAD)}
+
 \item {Canada Graduate Scholarship (CGS-D) -- \textbf{SSHRC} -- 2025 (120,000\$ CAD)}
 
 \item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025 (100,000\$ CAD)}

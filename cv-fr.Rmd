@@ -265,6 +265,8 @@ header-includes:
 
 \begin{description}[font=$\bullet$]
 
+\item {Bourse de recherche sur le logement de la SCHL et du CRSH -- \textbf{SCHL \& CRSH} -- 2025 (40 000\$ CAD)}
+
 \item {Bourse d'études supérieures du Canada (BÉSC-D) -- \textbf{CRSH} -- 2025 (120 000\$ CAD)}
 
 \item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025 (100 000\$ CAD)}
