@@ -170,6 +170,10 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - "*.Rmd"
+  - cv.pdf
+  - awesome-cv.cls
+  - fonts
 keep_files:
   - .git
   - .svn
