@@ -172,6 +172,7 @@ exclude:
   - vendor
   - "*.Rmd"
   - cv.pdf
+  - cv-fr.pdf
   - awesome-cv.cls
   - fonts
 keep_files:

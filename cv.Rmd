@@ -1,18 +1,13 @@
 ---
-name: Thomas Gareau-Paquette
-date: "`r format(Sys.time(), '%B %Y')`"
-address: "Ithaca, NY"
+name: Thomas
+surname: Gareau-Paquette
+position: "Ph.D. Student, Department of Government"
+address: "Cornell University, Ithaca, NY"
 email: "tg454@cornell.edu"
 www: "thomasgp.com"
 github: "ThomasGareau"
-output:
-  vitae::awesomecv:
-    page_total: true
-    keep_tex: true
-headcolor: "414141"
-docname: "Curriculum Vitae"
-header-includes:
-  - \usepackage{fontspec}
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
 ---
 
 ```{r setup, include=FALSE}
