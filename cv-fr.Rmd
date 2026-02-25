@@ -1,135 +1,200 @@
 ---
-name: Thomas
-surname: Gareau-Paquette
-position: "Étudiant au doctorat, Département de Government"
-address: "Cornell University, Ithaca, NY"
-email: "tg454@cornell.edu"
-www: "thomasgp.com"
-github: "ThomasGareau"
-date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::hyndman
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: false
+geometry: "left=1.22in,right=1.22in,top=0.8in,bottom=0.8in"
+header-includes:
+  - \usepackage{array}
+  - \usepackage{latexsym}
+  - \usepackage{titlesec}
+  - \usepackage{marvosym}
+  - \usepackage{enumitem}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot{}
+  - \renewcommand{\headrulewidth}{0pt}
+  - \renewcommand{\footrulewidth}{0pt}
+  - \urlstyle{rm}
+  - \raggedbottom
+  - \raggedright
+  - \setlength{\tabcolsep}{0in}
+  - \titleformat{\section}{\vspace{-10pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-Sys.setlocale("LC_ALL", "en_US.UTF-8")
-library(vitae)
-library(tibble)
-library(dplyr)
-```
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Thomas Gareau-Paquette}} & Courriel: \href{mailto:tg454@cornell.edu}{tg454@cornell.edu}\\
+  \href{https://thomasgp.com}{thomasgp.com} & \textbf{{Dernière mise à jour: `r format(Sys.time(), '%B %Y')`}}\\
+\end{tabular*}
+
+\vspace{1pt}
 
 # Formation
 
-```{r education}
-tribble(
-  ~ degree, ~ dates, ~ institution, ~ location, ~ details,
-  "Doctorat -- Government", "Sept. 2024 -- Présent", "Cornell University", "Ithaca, NY",
-    list("Champ majeur : American Politics",
-         "Champs mineurs : Comparative Politics \\& Methods"),
-  "Maîtrise ès arts -- Science politique; GPA : 4.00/4.00", "Sept. 2022 -- Août 2024", "McGill University", "Montréal, Canada",
-    list("Mémoire : Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada"),
-  "Programme d'été ICPSR -- Science politique", "Juill. 2023 -- Août 2023", "University of Michigan", "Ann Arbor, USA",
-    list(),
-  "Baccalauréat ès sciences -- Science politique (Hons.); GPA : 4.28/4.3", "Sept. 2019 -- Juin 2022", "Université de Montréal", "Montréal, Canada",
-    list(),
-  "Boursier Killam (Fulbright) -- Science politique et comportement politique; GPA : 3.97/4.00", "Mars 2022 -- Juin 2022", "University of Washington", "Seattle, USA",
-    list(),
-  "Microprogramme de 1er cycle (15 crédits) -- Analyse des mégadonnées; GPA : 4.2/4.3", "Sept. 2021 -- Avril 2022", "Université de Montréal", "Montréal, Canada",
-    list()
-) %>%
-  detailed_entries(
-    what = degree,
-    when = dates,
-    with = institution,
-    where = location,
-    why = details,
-    .protect = FALSE
-  )
-```
+\begin{itemize}[leftmargin=*]
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Cornell University} & Ithaca, NY \\
+      \textit{Doctorat -- Government} & \textit{Sept. 2024 -- Présent} \\
+    \end{tabular*}\vspace{-5pt}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Champ majeur :} American Politics}}}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Champs mineurs :} Comparative Politics \& Methods}}}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{McGill University} & Montréal, Canada \\
+      \textit{Maîtrise ès arts -- Science politique; MPC: 4.00/4.00} & \textit{Sept. 2022 -- Août 2024} \\
+    \end{tabular*}\vspace{-5pt}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Mémoire :}
+      Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.}}}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{University of Michigan} & Ann Arbor, USA \\
+      \textit{Programme d'été ICPSR -- Science politique} & \textit{Juill. 2023 -- Août 2023} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Université de Montréal} & Montréal, Canada \\
+      \textit{Baccalauréat ès sciences -- Science politique (Hons.); MPC: 4.28/4.3} & \textit{Sept. 2019 -- Juin 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{University of Washington} & Seattle, USA \\
+      \textit{Boursier Killam (Fulbright) -- Science politique et comportement politique; MPC: 3.97/4.00} & \textit{Mars 2022 -- Juin 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Université de Montréal} & Montréal, Canada \\
+      \textit{Microprogramme de 1er cycle (15 crédits) -- Analyse des mégadonnées; MPC: 4.2/4.3} & \textit{Sept. 2021 -- Avril 2022} \\
+    \end{tabular*}\vspace{-5pt}
+\end{itemize}
+
+\vspace{1pt}
 
 # Expérience de recherche et stages
 
-```{r experience}
-tribble(
-  ~ role, ~ dates, ~ institution, ~ location,
-  "Assistant de recherche, Prof. Suzanne Mettler, Prof. Peter Enns et doyen de CAS Peter Loewen", "Nov. 2024 -- Présent", "Cornell University", "Ithaca, NY",
-  "Assistant de recherche, Prof. Valérie-Anne Mahéo", "Sept. 2022 -- Oct. 2024", "Université Laval", "Montréal, Canada",
-  "Assistant de recherche, Prof. Dietlind Stolle", "Mai 2023 -- Août 2024", "McGill University", "Montréal, Canada",
-  "Codeur (Manifesto Project)", "Sept. 2022 -- Août 2024", "WZB -- Berlin Social Science Center", "Berlin, Allemagne (à distance)",
-  "Assistant de recherche quantitative, Prof. Jean-François Daoust", "Janv. 2021 -- Juill. 2024", "Université de Sherbrooke", "Sherbrooke, Canada",
-  "Assistant de recherche et d'enseignement quantitatif, Prof. Éric Bélanger", "Juin 2022 -- Avril 2023", "McGill University", "Montréal, Canada",
-  "Assistant de recherche quantitative, Chaire de recherche sur l'évaluation des politiques publiques pour les populations vulnérables", "Avril 2021 -- Déc. 2022", "ENAP", "Montréal, Canada",
-  "Assistant de recherche quantitative, Chaire de recherche du Canada en démocratie électorale", "Oct. 2021 -- Mai 2022", "Université de Montréal", "Montréal, Canada",
-  "Analyste d'affaires (stage)", "Janv. 2021 -- Mai 2021", "CIDEP Consultants", "Montréal, Canada"
-) %>%
-  detailed_entries(
-    what = role,
-    when = dates,
-    with = institution,
-    where = location,
-    .protect = FALSE
-  )
-```
+\begin{itemize}[leftmargin=*]
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Cornell University} & Ithaca, NY \\
+      \textit{Assistant de recherche, Prof. Suzanne Mettler,} & \textit{Nov. 2024 -- Présent} \\
+      \textit{Prof. Peter Enns et doyen de CAS Peter Loewen} & \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Université Laval} & Montréal, Canada \\
+      \textit{Assistant de recherche, Prof. Valérie-Anne Mahéo} & \textit{Sept. 2022 -- Oct. 2024} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{McGill University} & Montréal, Canada \\
+      \textit{Assistant de recherche, Prof. Dietlind Stolle} & \textit{Mai 2023 -- Août 2024} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{WZB -- Berlin Social Science Center} & Berlin, Allemagne (à distance) \\
+      \textit{Codeur (Manifesto Project)} & \textit{Sept. 2022 -- Août 2024} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Université de Sherbrooke} & Sherbrooke, Canada \\
+      \textit{Assistant de recherche quantitative, Prof. Jean-François Daoust} & \textit{Janv. 2021 -- Juill. 2024} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{McGill University} & Montréal, Canada \\
+      \textit{Assistant de recherche et d'enseignement quantitatif, Prof. Éric Bélanger} & \textit{Juin 2022 -- Avril 2023} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{ENAP} & Montréal, Canada \\
+      \textit{Assistant de recherche quantitative, Chaire de recherche sur} & \textit{Avril 2021 -- Déc. 2022} \\
+      \textit{l'évaluation des politiques publiques pour les populations vulnérables} & \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Université de Montréal} & Montréal, Canada \\
+      \textit{Assistant de recherche quantitative, Chaire de recherche du Canada en démocratie électorale} & \textit{Oct. 2021 -- Mai 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{CIDEP Consultants} & Montréal, Canada \\
+      \textit{Analyste d'affaires (stage)} & \textit{Janv. 2021 -- Mai 2021} \\
+    \end{tabular*}\vspace{-5pt}
+\end{itemize}
+
+\vspace{1pt}
 
 # Publications évaluées par les pairs
 
-\vspace{4pt}
+\vspace{1pt}
 
 \begin{description}
 
-\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2025). ``De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales?'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique} (FirstView, 1--20).
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2025). De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales? \textit{Canadian Journal of Political Science/Revue Canadienne de science politique} (FirstView, 1--20).
 
-\item[] Bélanger, É., Mongrain, P., \textbf{Gareau-Paquette, T.}, \& Mahéo, V.A. (2025). ``A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(2), 277--296.
+    \item[] Bélanger, É., Mongrain, P., \textbf{Gareau-Paquette, T.}, \& Mahéo, V.A. (2025). A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election. \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(2), 277--296.
 
-\item[] \textbf{Gareau-Paquette, T.}, \& Daoust, J.-F. (2024). ``Géographie politique de l'opinion publique québécoise et réévaluation du `mystère' de Québec.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 57(4), 816--841.
+    \item[] \textbf{Gareau-Paquette, T.}, \& Daoust, J.-F. (2024). Géographie politique de l'opinion publique québécoise et réévaluation du ``mystère'' de Québec. \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 57(4), 816--841.
 
-\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). ``How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999--2021).'' \textit{Nations and Nationalism}.
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999--2021). \textit{Nations and Nationalism}.
 
-\item[] \textbf{Gareau-Paquette, T.}, Léal, A., Leblanc, J., Taylor, M., Vandewalle, V., \& Dassonneville, R. (2024). ``Voting for Women in Recent Canadian Elections.'' \textit{French Politics}, 22(1), 45--63.
+    \item[] \textbf{Gareau-Paquette, T.}, Léal, A., Leblanc, J., Taylor, M., Vandewalle, V., \& Dassonneville, R. (2024). Voting for Women in Recent Canadian Elections. \textit{French Politics}, 22(1), 45--63.
 
-\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2023). ``Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000--2021).'' \textit{Regional \& Federal Studies}, 1--26.
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2023). Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000--2021). \textit{Regional \& Federal Studies}, 1--26.
 
 \end{description}
+
+\vspace{1pt}
 
 # Autres publications
 
 \subsection*{Recension}
-
 \begin{description}
-\item[] \textbf{Gareau-Paquette, T.} (2025). ``Political Engagement in Canadian City Elections. R. Michael McGregor and Laura B. Stephenson. 2024. Montreal: McGill-Queen's University Press, pp. 276.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(1), 255--257.
+    \item[] \textbf{Gareau-Paquette, T.} (2025). Political Engagement in Canadian City Elections. R. Michael McGregor and Laura B. Stephenson. 2024. Montreal: McGill-Queen's University Press, pp. 276. \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(1), 255--257.
 \end{description}
 
 \subsection*{Article de journal/Lettre d'opinion}
-
 \begin{description}
-\item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. (2023, 31 octobre). ``Dans certains pays européens, il existe un décalage notable entre un important soutien gouvernemental à l'Ukraine et une opinion publique plus ambivalente.'' \textit{Le Monde}.
+    \item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. (2023, 31 octobre). Dans certains pays européens, il existe un décalage notable entre un important soutien gouvernemental à l'Ukraine et une opinion publique plus ambivalente. \textit{Le Monde}.
 \end{description}
 
 \subsection*{Rapports}
-
 \begin{description}
-\item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2024, 20 novembre). Résultats préliminaires de la première vague de sondages administrée en 2024 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#2. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
+    \item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2024, 20 novembre). Résultats préliminaires de la première vague de sondages administrée en 2024 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#2. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
 
-\item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2023, 19 octobre). Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#1. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
+    \item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2023, 19 octobre). Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#1. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
 \end{description}
 
 \subsection*{Études de réplication}
-
 \begin{description}
-\item[] Hicks, J., Bondi, A., \textbf{Gareau-Paquette, T.}, \& Patterson, S. (2024). ``Reproducing Do Policymakers Listen to Experts? Evidence from a National Survey of Local and State Policymakers (Lee 2022).'' \textit{I4R Discussion Paper Series}, No. 186.
+    \item[] Hicks, J., Bondi, A., \textbf{Gareau-Paquette, T.}, \& Patterson, S. (2024). Reproducing Do Policymakers Listen to Experts? Evidence from a National Survey of Local and State Policymakers (Lee 2022). \textit{I4R Discussion Paper Series}, No. 186.
 \end{description}
 
 \subsection*{Logiciels R}
-
 \begin{description}
-\item[] \textbf{Gareau-Paquette, T.} (2023). qesR: Easy Access to All Quebec Election Studies Datasets. [R package version]. Disponible à : \url{https://github.com/ThomasGareau/qesR}.
+    \item[] \textbf{Gareau-Paquette, T.} (2023). qesR: Easy Access to All Quebec Election Studies Datasets. [R package version]. Disponible à : \url{https://github.com/ThomasGareau/qesR}.
 \end{description}
+
+\vspace{1pt}
 
 # Projets de recherche (sélection)
 
-\vspace{4pt}
-
 \begin{description}
+
 \item[] \textbf{Gareau-Paquette, T.}, Lucas, J., \& Loewen, P. \textit{Studying the Correlates of Vote Choice in Small Democracies}.
 
 \item[] Stolle, D., \textbf{Gareau-Paquette, T.}, \& Harell, A. \textit{From Local to Global: Assessing European Solidarity through the Lens of Ukraine Aid}. Prépublication.
@@ -142,73 +207,107 @@ tribble(
 
 \item[] \textbf{Gareau-Paquette, T.}, \& Jacques, O. \textit{The House Always Wins? Housing Affordability and Party Politics in Nine Post-Industrial Democracies}.
 
-\item[] Jacques, O., Baute, S., Busemeyer, M., Weisstanner, D. \textit{Aging and Growing Health Care Costs: the Political Pathway}.
+\item[] Enns, P., \& \textbf{Gareau-Paquette, T.} \textit{Forecasting the 2026 Midterms}.
 
 \item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} \textit{Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects}.
 
 \item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. \textit{Linking Europe's Aid to Public Support towards Ukraine}.
+
 \end{description}
+
+\vspace{1pt}
 
 # Communications (sélection)
 
-```{r presentations}
-tribble(
-  ~ title, ~ year,
-  "``Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects.'' American Political Science Association, Vancouver, C.-B., Canada, 2025.", "2025",
-  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice.'' American Political Science Association, Philadelphia, PA, USA, 6 septembre 2024.", "2024",
-  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.'' CSDC McGill Lab, Montréal, Québec, Canada, 17 juin 2024.", "2024",
-  "``Les régionalismes au Québec.'' La participation démocratique au Québec et au Canada à l'étude, Sherbrooke, Québec, Canada, 11 juin 2024.", "2024",
-  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.'' CSDC Graduate Students Conference, Ville de Québec, Québec, Canada, 22 mars 2024.", "2024",
-  "``Can Contacts with Public Services Foster Political Integration? A Study of New Immigrants' Experiences and their Attitudes.'' Midwest Political Science Association, Chicago, IL, USA, 6 avril 2024.", "2024",
-  "``Recent Immigrants' Experiences with Integration Services: An Assessment of Access to Services across the Province.'' Pathways to Prosperity National Conference, Montréal, Québec, Canada, 20 nov. 2023.", "2023",
-  "``Regionalism(s) and Vote Choice in Quebec.'' Canada Research Chair in Electoral Democracy Weekly Seminar (UdeM), Montréal, Québec, Canada, 17 sept. 2023.", "2023",
-  "``Regionalism(s) and Political Behaviour in Quebec.'' CSDC McGill Lab, Montréal, Québec, Canada, 17 sept. 2023.", "2023",
-  "``Regionalism(s) in Quebec: Analyzing Citizens' Attitudes and Voting Behaviour.'' APSA Annual Meeting, Los Angeles, CA, USA, 31 août -- 3 sept. 2023.", "2023",
-  "``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.'' APSA Annual Meeting, Los Angeles, CA, USA, 31 août -- 3 sept. 2023.", "2023",
-  "Président de séance -- Governance and Provincial Politics / La gouvernance et la politique provinciale. CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai -- 1er juin 2023.", "2023",
-  "``Out of the Blue? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election.'' CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai -- 1er juin 2023.", "2023",
-  "``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.'' CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai -- 1er juin 2023.", "2023",
-  "``Reassessing The Effect of Political Trust on Vote Choice in Canada: A Longitudinal Perspective (2000--2021).'' CSDC Student Conference, Québec, Québec, Canada, 31 mars 2023.", "2023",
-  "``How Stable Are Key Political Values and Beliefs of Canadian Voters?'' APSA Annual Meeting, Montréal, Québec, Canada, 15--18 septembre 2022.", "2022",
-  "``How Stable are Citizens' Attitudes toward Independence and Who Changes Their Minds? A Longitudinal Study of Scotland and Québec.'' CPSA Annual Conference, Montréal, Québec, Canada, 30 mai -- 3 juin 2022.", "2022",
-  "``Gender Affinity Voting in Recent Canadian Elections.'' Political Studies Association's Undergraduate Conference, University of York, York, Royaume-Uni, 8 avril 2022.", "2022"
-) %>%
-  brief_entries(
-    what = title,
-    when = year,
-    .protect = FALSE
-  )
-```
+\begin{itemize}[leftmargin=*]
+
+\item\small{\textbf{``Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects.''}{: American Political Science Association, Vancouver, C.-B., Canada, 2025. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice.''}{: American Political Science Association, Philadelphia, PA, USA, 6 septembre 2024. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.''}{: CSDC McGill Lab, Montréal, Québec, Canada, 17 juin 2024. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Les régionalismes au Québec.''}{: La participation démocratique au Québec et au Canada à l'étude, Sherbrooke, Québec, Canada, 11 juin 2024. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.''}{: CSDC Graduate Students Conference, Ville de Québec, Québec, Canada, 22 mars 2024. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Can Contacts with Public Services Foster Political Integration? A Study of New Immigrants' Experiences and their Attitudes.''}{: Midwest Political Science Association, Chicago, IL, USA, 6 avril 2024. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Recent Immigrants' Experiences with Integration Services: An Assessment of Access to Services across the Province.''}{: Pathways to Prosperity National Conference, Montréal, Québec, Canada, 20 nov. 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Regionalism(s) and Vote Choice in Quebec.''}{: Canada Research Chair in Electoral Democracy Weekly Seminar (UdeM), Montréal, Québec, Canada, 17 sept. 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Regionalism(s) and Political Behaviour in Quebec.''}{: CSDC McGill Lab, Montréal, Québec, Canada, 17 sept. 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Regionalism(s) in Quebec: Analyzing Citizens' Attitudes and Voting Behaviour.''}{: APSA Annual Meeting, Los Angeles, CA, USA, 31 août --- 3 sept. 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.''}{: APSA Annual Meeting, Los Angeles, CA, USA, 31 août --- 3 sept. 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{Président de séance -- Governance and Provincial Politics / La gouvernance et la politique provinciale. CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai --- 1er juin 2023. \vspace{-2pt}}
+\vspace{2pt}
+\item\small{\textbf{``Out of the Blue? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election.''}{: CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai --- 1er juin 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.''}{: CPSA Annual Meeting, Toronto, Ontario, Canada, 30 mai --- 1er juin 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Reassessing The Effect of Political Trust on Vote Choice in Canada: A Longitudinal Perspective (2000--2021).''}{: CSDC Student Conference, Québec, Québec, Canada, 31 mars 2023. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``How Stable Are Key Political Values and Beliefs of Canadian Voters?''}{: APSA Annual Meeting, Montréal, Québec, Canada, 15--18 septembre 2022. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``How Stable are Citizens' Attitudes toward Independence and Who Changes Their Minds? A Longitudinal Study of Scotland and Québec.''}{: CPSA Annual Conference, Montréal, Québec, Canada, 30 mai --- 3 juin 2022. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Gender Affinity Voting in Recent Canadian Elections.''}{: Political Studies Association's Undergraduate Conference, University of York, York, Royaume-Uni, 8 avril 2022. \vspace{-2pt}}}
+
+\end{itemize}
+
+\vspace{-5pt}
 
 # Bourses et distinctions
 
-\vspace{4pt}
-
 \begin{description}[font=$\bullet$]
+
 \item {Bourse d'études supérieures du Canada (BÉSC-D) -- \textbf{CRSH} -- 2025 (120 000\$ CAD)}
+
 \item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025 (100 000\$ CAD)}
+
 \item {Kohut Fellowship -- \textbf{Roper Center} -- 2025 (5 000\$)}
+
 \item {IES Graduate Research Grant -- \textbf{Einaudi Center, Cornell University} -- 2025 (4 000\$)}
+
 \item {Co-financement pour séjour de recherche -- \textbf{Cluster of Excellence ``The Politics of Inequality,'' University of Konstanz} -- 2025 (3 000\$)}
+
 \item {Bourse de voyage (conférence) -- \textbf{Cornell University} -- 2024 (400\$)}
+
 \item {Sage Fellowship -- \textbf{Cornell University} -- 2024 (55 000\$)}
+
 \item {Prix de la meilleure MPC en science politique [cohorte 2019--2022] -- \textbf{Université de Montréal} -- 2023 (1 000\$)}
 \item {Bourse de voyage (conférences) -- \textbf{CECD} -- 2023 (1 000\$)}
 \item {Bourse de formation méthodologique ICPSR -- \textbf{CECD} -- 2023 (3 000\$)}
+\vspace{1pt}
 \item {Bourse de formation à la maîtrise -- \textbf{FRQSC} -- 2023--2024 (20 000\$)}
+\vspace{1pt}
 \item {Bourse d'études supérieures du Canada (BÉSC-M) -- \textbf{CRSH} -- 2022--2023 (17 500\$)}
+\vspace{1pt}
 \item {Eren Graduate Recruitment Fellowship -- \textbf{McGill University} -- 2022--2023 (5 000\$)}
+\vspace{1pt}
 \item {Bourse d'entrée du Centre pour l'étude de la citoyenneté démocratique -- \textbf{McGill University} -- 2022--2023 (2 500\$)}
+\vspace{1pt}
 \item {Bourse d'études supérieures de l'Ontario (maîtrise) -- \textbf{University of Toronto} -- 2022--2023 (15 000\$) [Déclinée]}
+\vspace{1pt}
 \item {Bourse de l'Académie d'été SPS -- \textbf{European University Institute} -- 2022 (800\$)}
+\vspace{1pt}
 \item {Fulbright Cultural Awareness -- \textbf{Fulbright Canada} -- 2021--2022 (8 000\$)}
+\vspace{1pt}
 \item {Bourse Killam -- \textbf{Fulbright Canada} -- 2021--2022 (8 000\$)}
+\vspace{1pt}
 \item {Tournoi Jeunes Démocrates -- \textbf{Assemblée nationale du Québec} -- 2015, 2017, 2018 (850\$)}
+
 \end{description}
+
+\vspace{1pt}
 
 # Évaluation par les pairs
 
-\vspace{4pt}
+\vspace{1pt}
 
 \begin{itemize}[leftmargin=0.4cm]
 \item \textit{British Journal of Political Science (BJPOLS)}
@@ -217,54 +316,113 @@ tribble(
 \item \textit{West European Politics (WEP)}
 \end{itemize}
 
+\vspace{1pt}
+
+# Service
+
+\begin{itemize}[leftmargin=*]
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Cornell University, Department of Government} & Ithaca, NY \\
+      \textit{Représentant des étudiants diplômés (sous-champ American Politics)} & \textit{2025 -- Présent} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Cornell University} & Ithaca, NY \\
+      \textit{Coordonnateur de la mineure en politiques publiques /} & \textit{2025 -- Présent} \\
+      \textit{Coordonnateur de la mineure Crime, Prisons, Education and Justice} & \\
+    \end{tabular*}\vspace{-5pt}
+
+\end{itemize}
+
+\vspace{1pt}
+
 # Bénévolat (milieu académique)
 
-```{r volunteering}
-tribble(
-  ~ role, ~ dates, ~ org, ~ location,
-  "Correcteur", "Avril 2022 -- Présent", "Revue Possibles", "Montréal, Canada",
-  "Réplicateur", "Août 2023", "Montreal Replication Games", "Montréal, Canada",
-  "Rédacteur en chef pour l'Amérique du Nord", "Sept. 2021 -- Juill. 2023", "London Politica", "Londres, R.-U. (à distance)",
-  "Mentor", "Mars 2022 -- Juin 2022", "Foundation for International Understanding Through Students", "Seattle, WA",
-  "Vice-président (innovation) et rédacteur", "Oct. 2019 -- Avril 2022", "Comité des Affaires Internationales de l'Université de Montréal", "Montréal, Canada",
-  "Mentor", "Sept. 2020 -- Déc. 2022", "Programme Passerelle+", "Montréal, Canada",
-  "Animateur radio -- Cent Digressions", "Janv. 2021 -- Sept. 2021", "CISM 89.3", "Montréal, Canada",
-  "Rédacteur en chef adjoint, nouvelles internationales", "Avril 2020 -- Sept. 2021", "Newspective", "New York, USA (à distance)",
-  "Membre", "Sept. 2019 -- Avril 2020", "Délégation des Nations Unies de l'Université de Montréal", "Montréal, Canada"
-) %>%
-  detailed_entries(
-    what = role,
-    when = dates,
-    with = org,
-    where = location,
-    .protect = FALSE
-  )
-```
+\begin{itemize}[leftmargin=*]
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Revue Possibles} & Montréal, Canada \\
+      \textit{Correcteur} & \textit{Avril 2022 -- Présent} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Montreal Replication Games} & Montréal, Canada \\
+      \textit{Réplicateur} & \textit{Août 2023} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{London Politica} & Londres, R.-U. (à distance) \\
+      \textit{Rédacteur en chef pour l'Amérique du Nord} & \textit{Sept. 2021 -- Juill. 2023} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Foundation for International Understanding Through Students} & Seattle, WA \\
+      \textit{Mentor} & \textit{Mars 2022 -- Juin 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Comité des Affaires Internationales de l'Université de Montréal} & Montréal, Canada \\
+      \textit{Vice-président (innovation) et rédacteur} & \textit{Oct. 2019 -- Avril 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Programme Passerelle+} & Montréal, Canada \\
+      \textit{Mentor} & \textit{Sept. 2020 -- Déc. 2022} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{CISM 89.3} & Montréal, Canada \\
+      \textit{Animateur radio -- Cent Digressions} & \textit{Janv. 2021 -- Sept. 2021} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Newspective} & New York, USA (à distance) \\
+      \textit{Rédacteur en chef adjoint, nouvelles internationales} & \textit{Avril 2020 -- Sept. 2021} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Délégation des Nations Unies de l'Université de Montréal} & Montréal, Canada \\
+      \textit{Membre} & \textit{Sept. 2019 -- Avril 2020} \\
+    \end{tabular*}\vspace{-5pt}
+
+\end{itemize}
+
+\vspace{1pt}
 
 # Formation complémentaire
 
-\vspace{4pt}
-
 \begin{description}[font=$\bullet$]
-\item {Académie d'été SPS sur les (in)égalités en Europe -- \textbf{European University Institute}, 2022}
+\item {Académie d'été SPS sur les (in)égalités en Europe -- \textbf{European University Institute}, septembre 2022}
 \vspace{-5pt}
-\item {Introduction à Python -- \textbf{Datacamp}, 2021}
+\item {Introduction à Python -- \textbf{Datacamp}, décembre 2021}
 \vspace{-5pt}
-\item {Inférence causale avec R -- \textbf{Datacamp}, 2021}
+\item {Inférence causale avec R -- \textbf{Datacamp}, août 2021}
 \vspace{-5pt}
-\item {Introduction à l'inférence causale -- \textbf{ICPSR Short Workshops (à distance)}, 2021}
+\item {Introduction à l'inférence causale -- \textbf{ICPSR Short Workshops (à distance)}, juillet 2021}
 \vspace{-5pt}
-\item {Introduction à Git et Github -- \textbf{Coursera \& Google}, 2021}
+\item {Introduction à Git et Github -- \textbf{Coursera \& Google}, juin 2021}
 \vspace{-5pt}
-\item {Sécuriser la démocratie numérique -- \textbf{Coursera \& University of Michigan}, 2020}
+\item {Sécuriser la démocratie numérique -- \textbf{Coursera \& University of Michigan}, juillet 2020}
 \end{description}
+
+\vspace{1pt}
 
 # Compétences
 
-\vspace{4pt}
-
-\begin{description}[font=$\bullet$]
-\item {\textbf{Programmation :} R, Git, \LaTeX{} (avancé); JavaScript, C, Python (débutant)}
-\vspace{-5pt}
-\item {\textbf{Langues :} anglais, français (avancé), italien (débutant), allemand (débutant)}
-\end{description}
+\begin{itemize}[leftmargin=*]
+\item\small{\textbf{Programmation}{: R, Git, \LaTeX{} (avancé); JavaScript, C, Python (débutant) \vspace{-2pt}}}
+\vspace{1pt}
+\item\small{\textbf{Langues}{: anglais, français (avancé), italien (débutant), allemand (débutant)}}
+\end{itemize}
