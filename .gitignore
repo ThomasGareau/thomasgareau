@@ -11,3 +11,11 @@ Gemfile.lock
 node_modules
 package-lock.json
 .Rproj.user
+
+# Vitae/LaTeX build artifacts
+awesome-cv.cls
+fonts/
+cv.pdf
+cv.knit.md
+cv.tex
+cv.log

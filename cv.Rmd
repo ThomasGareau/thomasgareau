@@ -1,0 +1,277 @@
+---
+name: Thomas Gareau-Paquette
+date: "`r format(Sys.time(), '%B %Y')`"
+address: "Ithaca, NY"
+email: "tg454@cornell.edu"
+www: "thomasgp.com"
+github: "ThomasGareau"
+output:
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+headcolor: "414141"
+docname: "Curriculum Vitae"
+header-includes:
+  - \usepackage{fontspec}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+Sys.setlocale("LC_ALL", "en_US.UTF-8")
+library(vitae)
+library(tibble)
+library(dplyr)
+```
+
+# Education
+
+```{r education}
+tribble(
+  ~ degree, ~ dates, ~ institution, ~ location, ~ details,
+  "Ph.D. -- Government", "Sept. 2024 -- Present", "Cornell University", "Ithaca, NY",
+    list("Major Subfield: American Politics",
+         "Minor Subfields: Comparative Politics \\& Methods"),
+  "Master of Arts -- Political Science; GPA: 4.00/4.00", "Sept. 2022 -- Aug. 2024", "McGill University", "Montréal, Canada",
+    list("MA Thesis: Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada"),
+  "ICPSR Summer Program -- Political Science", "July 2023 -- Aug. 2023", "University of Michigan", "Ann Arbor, USA",
+    list(),
+  "Bachelor of Science -- Political Science (Hons.); GPA: 4.28/4.3", "Sept. 2019 -- June 2022", "Université de Montréal", "Montréal, Canada",
+    list(),
+  "Killam Fellow (Fulbright) -- Political Science and Political Behavior; GPA: 3.97/4.00", "March 2022 -- June 2022", "University of Washington", "Seattle, USA",
+    list(),
+  "Undergraduate Microprogram (15 credits) -- Big Data Analysis; GPA: 4.2/4.3", "Sept. 2021 -- April 2022", "Université de Montréal", "Montréal, Canada",
+    list()
+) %>%
+  detailed_entries(
+    what = degree,
+    when = dates,
+    with = institution,
+    where = location,
+    why = details,
+    .protect = FALSE
+  )
+```
+
+# Research Experience & Internships
+
+```{r experience}
+tribble(
+  ~ role, ~ dates, ~ institution, ~ location,
+  "Graduate Research Assistant, Prof. Suzanne Mettler, Prof. Peter Enns, and Dean of CAS Peter Loewen", "Nov. 2024 -- Present", "Cornell University", "Ithaca, NY",
+  "Graduate Research Assistant, Prof. Valérie-Anne Mahéo", "Sept. 2022 -- Oct. 2024", "Université Laval", "Montréal, Canada",
+  "Graduate Research Assistant, Prof. Dietlind Stolle", "May 2023 -- Aug. 2024", "McGill University", "Montréal, Canada",
+  "Coder (Manifesto Project)", "Sept. 2022 -- Aug. 2024", "WZB -- Berlin Social Science Center", "Berlin, Germany (remote)",
+  "Quantitative Research Assistant, Prof. Jean-François Daoust", "Jan. 2021 -- July 2024", "Université de Sherbrooke", "Sherbrooke, Canada",
+  "Quantitative Research and Teaching Assistant, Prof. Éric Bélanger", "June 2022 -- April 2023", "McGill University", "Montréal, Canada",
+  "Quantitative Research Assistant, Research Chair on the Evaluation of Public Policies for Vulnerable Populations", "April 2021 -- Dec. 2022", "ENAP", "Montréal, Canada",
+  "Quantitative Research Assistant, Canada Research Chair in Electoral Democracy", "Oct. 2021 -- May 2022", "Université de Montréal", "Montréal, Canada",
+  "Business Analyst Intern", "Jan. 2021 -- May 2021", "CIDEP Consultants", "Montréal, Canada"
+) %>%
+  detailed_entries(
+    what = role,
+    when = dates,
+    with = institution,
+    where = location,
+    .protect = FALSE
+  )
+```
+
+# Peer-Reviewed Publications
+
+\vspace{4pt}
+
+\begin{description}
+
+\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2025). ``De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales?'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique} (FirstView, 1--20).\\
+\textit{\small [Increasingly Worried: Who Are the Quebecers Who Consider French to Be Threatened and What Are the Electoral Consequences?]}
+
+\item[] Bélanger, É., Mongrain, P., \textbf{Gareau-Paquette, T.}, \& Mahéo, V.A. (2025). ``A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(2), 277--296.
+
+\item[] \textbf{Gareau-Paquette, T.}, \& Daoust, J.-F. (2024). ``Géographie politique de l'opinion publique québécoise et réévaluation du `mystère' de Québec.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 57(4), 816--841.\\
+\textit{\small [Political Geography of Québec Public Opinion and Reassessment of the ``Mystery'' of Québec City]}
+
+\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). ``How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999--2021).'' \textit{Nations and Nationalism}.
+
+\item[] \textbf{Gareau-Paquette, T.}, Léal, A., Leblanc, J., Taylor, M., Vandewalle, V., \& Dassonneville, R. (2024). ``Voting for Women in Recent Canadian Elections.'' \textit{French Politics}, 22(1), 45--63.
+
+\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2023). ``Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000--2021).'' \textit{Regional \& Federal Studies}, 1--26.
+
+\end{description}
+
+# Other Publications
+
+\subsection*{Book Review}
+
+\begin{description}
+\item[] \textbf{Gareau-Paquette, T.} (2025). ``Political Engagement in Canadian City Elections. R. Michael McGregor and Laura B. Stephenson. 2024. Montreal: McGill-Queen's University Press, pp. 276.'' \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(1), 255--257.
+\end{description}
+
+\subsection*{Newspaper Article/Op-Ed}
+
+\begin{description}
+\item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. (2023, October 31). ``Dans certains pays européens, il existe un décalage notable entre un important soutien gouvernemental à l'Ukraine et une opinion publique plus ambivalente.'' \textit{Le Monde}.
+\end{description}
+
+\subsection*{Reports}
+
+\begin{description}
+\item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2024, November 20). Résultats préliminaires de la première vague de sondages administrée en 2024 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#2. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
+
+\item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} (2023, October 19). Résultats préliminaires de la première vague de sondages administrée en 2023 sur les activités collectives du Volet 2 du Programme d'Accueil et d'Intégration des Immigrants et la pleine participation au Québec. Fiche annuelle \#1. \textit{Ministère de l'Immigration, de la Francisation et de l'Intégration}.
+\end{description}
+
+\subsection*{Replication Studies}
+
+\begin{description}
+\item[] Hicks, J., Bondi, A., \textbf{Gareau-Paquette, T.}, \& Patterson, S. (2024). ``Reproducing Do Policymakers Listen to Experts? Evidence from a National Survey of Local and State Policymakers (Lee 2022).'' \textit{I4R Discussion Paper Series}, No. 186.
+\end{description}
+
+\subsection*{R Packages}
+
+\begin{description}
+\item[] \textbf{Gareau-Paquette, T.} (2023). qesR: Easy Access to All Quebec Election Studies Datasets. [R package version]. Available at: \url{https://github.com/ThomasGareau/qesR}.
+\end{description}
+
+# Research Projects (Selected)
+
+\vspace{4pt}
+
+\begin{description}
+\item[] \textbf{Gareau-Paquette, T.}, Lucas, J., \& Loewen, P. \textit{Studying the Correlates of Vote Choice in Small Democracies}.
+
+\item[] Stolle, D., \textbf{Gareau-Paquette, T.}, \& Harell, A. \textit{From Local to Global: Assessing European Solidarity through the Lens of Ukraine Aid}. Preprint.
+
+\item[] Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., \textbf{Gareau-Paquette, T.}, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., \& Dassonneville, R. \textit{Do Political Surveys Overestimate Affective Polarization? Evidence From Germany and the United States}. Revise and Resubmit.
+
+\item[] Bélanger, E., \& \textbf{Gareau-Paquette, T.} \textit{The 2022 Quebec Provincial Elections}.
+
+\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} \textit{The Politics of Language and Public Opinion in Quebec}.
+
+\item[] \textbf{Gareau-Paquette, T.}, \& Jacques, O. \textit{The House Always Wins? Housing Affordability and Party Politics in Nine Post-Industrial Democracies}.
+
+\item[] Jacques, O., Baute, S., Busemeyer, M., Weisstanner, D. \textit{Aging and Growing Health Care Costs: the Political Pathway}.
+
+\item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} \textit{Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects}.
+
+\item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. \textit{Linking Europe's Aid to Public Support towards Ukraine}.
+\end{description}
+
+# Presentations (Selected)
+
+```{r presentations}
+tribble(
+  ~ title, ~ year,
+  "``Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects.'' American Political Science Association, Vancouver, BC, Canada, 2025.", "2025",
+  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice.'' American Political Science Association, Philadelphia, PA, USA, September 6th, 2024.", "2024",
+  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.'' CSDC McGill Lab, Montréal, Québec, Canada, June 17, 2024.", "2024",
+  "``Les régionalismes au Québec.'' La participation démocratique au Québec et au Canada à l'étude, Sherbrooke, Québec, Canada, June 11th, 2024.", "2024",
+  "``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.'' CSDC Graduate Students Conference, Québec City, Québec, Canada, March 22, 2024.", "2024",
+  "``Can Contacts with Public Services Foster Political Integration? A Study of New Immigrants' Experiences and their Attitudes.'' Midwest Political Science Association, Chicago, IL, USA, April 6th, 2024.", "2024",
+  "``Recent Immigrants' Experiences with Integration Services: An Assessment of Access to Services across the Province.'' Pathways to Prosperity National Conference, Montréal, Québec, Canada, Nov. 20, 2023.", "2023",
+  "``Regionalism(s) and Vote Choice in Quebec.'' Canada Research Chair in Electoral Democracy Weekly Seminar (UdeM), Montréal, Québec, Canada, Sept. 17, 2023.", "2023",
+  "``Regionalism(s) and Political Behaviour in Quebec.'' CSDC McGill Lab, Montréal, Québec, Canada, Sept. 17, 2023.", "2023",
+  "``Regionalism(s) in Quebec: Analyzing Citizens' Attitudes and Voting Behaviour.'' APSA Annual Meeting, Los Angeles, CA, USA, August 31st -- Sept. 3, 2023.", "2023",
+  "``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.'' APSA Annual Meeting, Los Angeles, CA, USA, August 31st -- Sept. 3, 2023.", "2023",
+  "Chair -- Governance and Provincial Politics / La gouvernance et la politique provinciale. CPSA Annual Meeting, Toronto, Ontario, Canada, May 30 -- June 1st, 2023.", "2023",
+  "``Out of the Blue? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election.'' CPSA Annual Meeting, Toronto, Ontario, Canada, May 30 -- June 1st, 2023.", "2023",
+  "``The Making of a `Super Issue': A Longitudinal Analysis of Attitudes Toward Scotland's Independence.'' CPSA Annual Meeting, Toronto, Ontario, Canada, May 30 -- June 1st, 2023.", "2023",
+  "``Reassessing The Effect of Political Trust on Vote Choice in Canada: A Longitudinal Perspective (2000--2021).'' CSDC Student Conference, Québec, Québec, Canada, March 31, 2023.", "2023",
+  "``How Stable Are Key Political Values and Beliefs of Canadian Voters?'' APSA Annual Meeting, Montréal, Québec, Canada, September 15--18, 2022.", "2022",
+  "``How Stable are Citizens' Attitudes toward Independence and Who Changes Their Minds? A Longitudinal Study of Scotland and Québec.'' CPSA Annual Conference, Montréal, Québec, Canada, May 30 -- June 3, 2022.", "2022",
+  "``Gender Affinity Voting in Recent Canadian Elections.'' Political Studies Association's Undergraduate Conference, University of York, York, United Kingdom, April 8, 2022.", "2022"
+) %>%
+  brief_entries(
+    what = title,
+    when = year,
+    .protect = FALSE
+  )
+```
+
+# Honors and Awards
+
+\vspace{4pt}
+
+\begin{description}[font=$\bullet$]
+\item {Canada Graduate Scholarship (CGS-D) -- \textbf{SSHRC} -- 2025 (120,000\$ CAD)}
+\item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025 (100,000\$ CAD)}
+\item {Kohut Fellowship -- \textbf{Roper Center} -- 2025 (5,000\$)}
+\item {IES Graduate Research Grant -- \textbf{Einaudi Center, Cornell University} -- 2025 (4,000\$)}
+\item {Co-Funding for Research Stay -- \textbf{Cluster of Excellence ``The Politics of Inequality,'' University of Konstanz} -- 2025 (3,000\$)}
+\item {Conference Travel Grant -- \textbf{Cornell University} -- 2024 (400\$)}
+\item {Sage Fellowship -- \textbf{Cornell University} -- 2024 (55,000\$)}
+\item {Best Political Science Cumulative GPA Award [2019--2022 Cohort] -- \textbf{Université de Montréal} -- 2023 (1,000\$)}
+\item {Travel Grant (conferences) -- \textbf{CECD} -- 2023 (1,000\$)}
+\item {ICPSR Methodological Training Grant -- \textbf{CECD} -- 2023 (3,000\$)}
+\item {Master's Training Scholarship -- \textbf{FRQSC} -- 2023--2024 (20,000\$)}
+\item {Canada Graduate Scholarship (CGS-M) -- \textbf{SSHRC} -- 2022--2023 (17,500\$)}
+\item {Eren Graduate Recruitment Fellowship -- \textbf{McGill University} -- 2022--2023 (5,000\$)}
+\item {Centre for the Study of Democratic Citizenship Entrance Stipend -- \textbf{McGill University} -- 2022--2023 (2,500\$)}
+\item {Ontario Graduate Scholarship (Masters) -- \textbf{University of Toronto} -- 2022--2023 (15,000\$) [Declined]}
+\item {SPS Summer Academy Scholarship -- \textbf{European University Institute} -- 2022 (800\$)}
+\item {Fulbright Cultural Awareness -- \textbf{Fulbright Canada} -- 2021--2022 (8,000\$)}
+\item {Killam Fellowship -- \textbf{Fulbright Canada} -- 2021--2022 (8,000\$)}
+\item {Jeunes Démocrates Tournament -- \textbf{Quebec National Assembly} -- 2015, 2017, 2018 (850\$)}
+\end{description}
+
+# Peer Reviewing
+
+\vspace{4pt}
+
+\begin{itemize}[leftmargin=0.4cm]
+\item \textit{British Journal of Political Science (BJPOLS)}
+\item \textit{Canadian Journal of Political Science (CJPS)}
+\item \textit{Journal of Elections, Public Opinion \& Parties (JEPOP)}
+\item \textit{West European Politics (WEP)}
+\end{itemize}
+
+# Volunteering Experiences (Academia)
+
+```{r volunteering}
+tribble(
+  ~ role, ~ dates, ~ org, ~ location,
+  "Corrector", "April 2022 -- Present", "Revue Possibles", "Montréal, Canada",
+  "Replicator", "August 2023", "Montreal Replication Games", "Montréal, Canada",
+  "Lead Editor for North America", "Sept. 2021 -- July 2023", "London Politica", "London, UK (remote)",
+  "Mentor", "March 2022 -- June 2022", "Foundation for International Understanding Through Students", "Seattle, WA",
+  "Vice President (Innovation) and Staff Writer", "Oct. 2019 -- April 2022", "Comité des Affaires Internationales de l'Université de Montréal", "Montréal, Canada",
+  "Mentor", "Sept. 2020 -- Dec. 2022", "Passerelle+ Program", "Montréal, Canada",
+  "Radio Host -- Cent Digressions", "Jan. 2021 -- Sept. 2021", "CISM 89.3", "Montréal, Canada",
+  "Deputy World News Editor", "April 2020 -- Sept. 2021", "Newspective", "New York, USA (remote)",
+  "Member", "Sept. 2019 -- April 2020", "Délégation des Nations Unies de l'Université de Montréal", "Montréal, Canada"
+) %>%
+  detailed_entries(
+    what = role,
+    when = dates,
+    with = org,
+    where = location,
+    .protect = FALSE
+  )
+```
+
+# Additional Training
+
+\vspace{4pt}
+
+\begin{description}[font=$\bullet$]
+\item {SPS Summer Academy on (In)Equality in Europe -- \textbf{European University Institute}, 2022}
+\vspace{-5pt}
+\item {Introduction to Python -- \textbf{Datacamp}, 2021}
+\vspace{-5pt}
+\item {Causal Inference with R -- \textbf{Datacamp}, 2021}
+\vspace{-5pt}
+\item {Introduction to Causal Inference -- \textbf{ICPSR Short Workshops (remote)}, 2021}
+\vspace{-5pt}
+\item {Introduction to Git and Github -- \textbf{Coursera \& Google}, 2021}
+\vspace{-5pt}
+\item {Securing Digital Democracy -- \textbf{Coursera \& University of Michigan}, 2020}
+\end{description}
+
+# Skills
+
+\vspace{4pt}
+
+\begin{description}[font=$\bullet$]
+\item {\textbf{Programming:} R, Git, \LaTeX{} (Advanced); JavaScript, C, Python (Beginner)}
+\vspace{-5pt}
+\item {\textbf{Languages:} English, French (Advanced), Italian (Beginner), German (Beginner)}
+\end{description}
