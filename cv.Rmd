@@ -25,7 +25,7 @@ header-includes:
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Thomas Gareau-Paquette}} & Email: \href{mailto:tg454@cornell.edu}{tg454@cornell.edu}\\
-  \href{https://thomasgp.com}{thomasgp.com} & \textbf{{Last updated: `r format(Sys.time(), '%B %Y')`}}\\
+  \href{https://thomasgp.com}{thomasgp.com} & \textbf{{Last updated: June 2026}}\\
 \end{tabular*}
 
 \vspace{1pt}
@@ -34,7 +34,7 @@ header-includes:
 
 \begin{itemize}[leftmargin=*]
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Cornell University} & Ithaca, NY \\
       \textit{Ph.D. -- Government} & \textit{Sept. 2024 -- Present} \\
     \end{tabular*}\vspace{-5pt}
@@ -42,7 +42,7 @@ header-includes:
       {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Minor Subfields:} Comparative Politics \& Methods}}}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{McGill University} & Montréal, Canada \\
       \textit{Master of Arts -- Political Science; GPA: 4.00/4.00} & \textit{Sept. 2022 -- August 2024} \\
     \end{tabular*}\vspace{-5pt}
@@ -50,25 +50,25 @@ header-includes:
       Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada.}}}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{University of Michigan} & Ann Arbor, USA \\
       \textit{ICPSR Summer Program -- Political Science} & \textit{July 2023 -- Aug. 2023} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Université de Montréal} & Montréal, Canada \\
       \textit{Bachelor of Science -- Political Science (Hons.); GPA: 4.28/4.3} & \textit{Sept. 2019 -- June 2022} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{University of Washington} & Seattle, USA \\
       \textit{Killam Fellow (Fulbright) -- Political Science and Political Behavior; GPA: 3.97/4.00} & \textit{March 2022 -- June 2022} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Université de Montréal} & Montréal, Canada \\
       \textit{Undergraduate Microprogram (15 credits) -- Big Data Analysis; GPA: 4.2/4.3} & \textit{Sept. 2021 -- April 2022} \\
     \end{tabular*}\vspace{-5pt}
@@ -80,57 +80,57 @@ header-includes:
 
 \begin{itemize}[leftmargin=*]
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Cornell University} & Ithaca, NY \\
       \textit{Graduate Research Assistant, Prof. Suzanne Mettler,} & \textit{November 2024 -- Present} \\
       \textit{Prof. Peter Enns, and Dean of CAS Peter Loewen} & \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Université Laval} & Montréal, Canada \\
       \textit{Graduate Research Assistant, Prof. Valérie-Anne Mahéo} & \textit{September 2022 -- October 2024} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{McGill University} & Montréal, Canada \\
       \textit{Graduate Research Assistant, Prof. Dietlind Stolle} & \textit{May 2023 -- August 2024} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{WZB -- Berlin Social Science Center} & Berlin, Germany (remote) \\
       \textit{Coder (Manifesto Project)} & \textit{September 2022 -- August 2024} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Université de Sherbrooke} & Sherbrooke, Canada \\
       \textit{Quantitative Research Assistant, Prof. Jean-François Daoust} & \textit{January 2021 -- July 2024} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{McGill University} & Montréal, Canada \\
       \textit{Quantitative Research and Teaching Assistant, Prof. Éric Bélanger} & \textit{June 2022 -- April 2023} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{ENAP} & Montréal, Canada \\
       \textit{Quantitative Research Assistant, Research Chair on the} & \textit{April 2021 -- Dec. 2022} \\
       \textit{Evaluation of Public Policies for Vulnerable Populations} & \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Université de Montréal} & Montréal, Canada \\
       \textit{Quantitative Research Assistant, Canada Research Chair in Electoral Democracy} & \textit{October 2021 -- May 2022} \\
     \end{tabular*}\vspace{-5pt}
 
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{CIDEP Consultants} & Montréal, Canada \\
       \textit{Business Analyst Intern} & \textit{Jan. 2021 -- May 2021} \\
     \end{tabular*}\vspace{-5pt}
@@ -223,6 +223,16 @@ header-includes:
 
 \begin{itemize}[leftmargin=*]
 
+\item\small{\textbf{``Rallying under Threat: Incumbency, Canadian Sovereignty, Risk, and the 2025 Liberal Surge.''}{: CPSA Annual Conference, Ottawa, Ontario, Canada, June 4th, 2026. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Citizenship and Multilevel Integration.''}{: CPSA Annual Conference, Ottawa, Ontario, Canada, June 3rd, 2026. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Housing Resentment in Quebec.''}{: CPSA Annual Conference, Ottawa, Ontario, Canada, June 3rd, 2026. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Two Faces of Redistribution in Canadian Party Competition: Welfare-State Support, Deservingness, and Liberal-Centred Party Dyads.''}{: C-Dem Conference, Toronto, Ontario, Canada, May 6th, 2026. \vspace{-2pt}}}
+\vspace{2pt}
+\item\small{\textbf{``Multilevel Politics in Quebec.''}{: Cornell Political Behavior Workshop, Ithaca, NY, USA, March 2026. \vspace{-2pt}}}
+\vspace{2pt}
 \item\small{\textbf{``Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects.''}{: American Political Science Association, Vancouver, BC, Canada, 2025. \vspace{-2pt}}}
 \vspace{2pt}
 \item\small{\textbf{``Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice.''}{: American Political Science Association, Philadelphia, PA, USA, September 6th, 2024. \vspace{-2pt}}}
@@ -267,43 +277,43 @@ header-includes:
 
 \begin{description}[font=$\bullet$]
 
-\item {CMHC-SSHRC Housing Research Doctoral Scholarship -- \textbf{CMHC \& SSHRC} -- 2025 (40,000\$ CAD)}
+\item {CMHC-SSHRC Housing Research Doctoral Scholarship -- \textbf{CMHC \& SSHRC} -- 2025}
 
-\item {Canada Graduate Scholarship (CGS-D) -- \textbf{SSHRC} -- 2025 (120,000\$ CAD)}
+\item {Canada Graduate Scholarship (CGS-D) -- \textbf{SSHRC} -- 2025}
 
-\item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025 (100,000\$ CAD)}
+\item {Bourse de doctorat en recherche (secteur société et culture) -- \textbf{FRQSC} -- 2025}
 
-\item {Kohut Fellowship -- \textbf{Roper Center} -- 2025 (5,000\$)}
+\item {Kohut Fellowship -- \textbf{Roper Center} -- 2025}
 
-\item {IES Graduate Research Grant -- \textbf{Einaudi Center, Cornell University} -- 2025 (4,000\$)}
+\item {IES Graduate Research Grant -- \textbf{Einaudi Center, Cornell University} -- 2025}
 
-\item {Co-Funding for Research Stay -- \textbf{Cluster of Excellence ``The Politics of Inequality,'' University of Konstanz} -- 2025 (3,000\$)}
+\item {Co-Funding for Research Stay -- \textbf{Cluster of Excellence ``The Politics of Inequality,'' University of Konstanz} -- 2025}
 
-\item {Conference Travel Grant -- \textbf{Cornell University} -- 2024 (400\$)}
+\item {Conference Travel Grant -- \textbf{Cornell University} -- 2024}
 
-\item {Sage Fellowship -- \textbf{Cornell University} -- 2024 (55,000\$)}
+\item {Sage Fellowship -- \textbf{Cornell University} -- 2024}
 
-\item {Best Political Science Cumulative GPA Award [2019--2022 Cohort] -- \textbf{Université de Montréal} -- 2023 (1,000\$)}
-\item {Travel Grant (conferences) -- \textbf{CECD} -- 2023 (1,000\$)}
-\item {ICPSR Methodological Training Grant -- \textbf{CECD} -- 2023 (3,000\$)}
+\item {Best Political Science Cumulative GPA Award [2019--2022 Cohort] -- \textbf{Université de Montréal} -- 2023}
+\item {Travel Grant (conferences) -- \textbf{CECD} -- 2023}
+\item {ICPSR Methodological Training Grant -- \textbf{CECD} -- 2023}
 \vspace{1pt}
-\item {Master's Training Scholarship -- \textbf{FRQSC} -- 2023--2024 (20,000\$)}
+\item {Master's Training Scholarship -- \textbf{FRQSC} -- 2023--2024}
 \vspace{1pt}
-\item {Canada Graduate Scholarship (CGS-M) -- \textbf{SSHRC} -- 2022--2023 (17,500\$)}
+\item {Canada Graduate Scholarship (CGS-M) -- \textbf{SSHRC} -- 2022--2023}
 \vspace{1pt}
-\item {Eren Graduate Recruitment Fellowship -- \textbf{McGill University} -- 2022--2023 (5,000\$)}
+\item {Eren Graduate Recruitment Fellowship -- \textbf{McGill University} -- 2022--2023}
 \vspace{1pt}
-\item {Centre for the Study of Democratic Citizenship Entrance Stipend -- \textbf{McGill University} -- 2022--2023 (2,500\$)}
+\item {Centre for the Study of Democratic Citizenship Entrance Stipend -- \textbf{McGill University} -- 2022--2023}
 \vspace{1pt}
-\item {Ontario Graduate Scholarship (Masters) -- \textbf{University of Toronto} -- 2022--2023 (15,000\$) [Declined]}
+\item {Ontario Graduate Scholarship (Masters) -- \textbf{University of Toronto} -- 2022--2023 [Declined]}
 \vspace{1pt}
-\item {SPS Summer Academy Scholarship -- \textbf{European University Institute} -- 2022 (800\$)}
+\item {SPS Summer Academy Scholarship -- \textbf{European University Institute} -- 2022}
 \vspace{1pt}
-\item {Fulbright Cultural Awareness -- \textbf{Fulbright Canada} -- 2021--2022 (8,000\$)}
+\item {Fulbright Cultural Awareness -- \textbf{Fulbright Canada} -- 2021--2022}
 \vspace{1pt}
-\item {Killam Fellowship -- \textbf{Fulbright Canada} -- 2021--2022 (8,000\$)}
+\item {Killam Fellowship -- \textbf{Fulbright Canada} -- 2021--2022}
 \vspace{1pt}
-\item {Jeunes Démocrates Tournament -- \textbf{Quebec National Assembly} -- 2015, 2017, 2018 (850\$)}
+\item {Jeunes Démocrates Tournament -- \textbf{Quebec National Assembly} -- 2015, 2017, 2018}
 
 \end{description}
 
@@ -327,13 +337,13 @@ header-includes:
 \begin{itemize}[leftmargin=*]
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Cornell University, Department of Government} & Ithaca, NY \\
       \textit{Graduate Student Representative (American Politics Subfield)} & \textit{2025 -- Present} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Cornell University} & Ithaca, NY \\
       \textit{Public Policy Minor Coordinator / Crime, Prisons, Education} & \textit{2025 -- Present} \\
       \textit{and Justice Minor Coordinator} & \\
@@ -348,55 +358,57 @@ header-includes:
 \begin{itemize}[leftmargin=*]
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Revue Possibles} & Montréal, Canada \\
       \textit{Corrector} & \textit{April 2022 -- Present} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Montreal Replication Games} & Montréal, Canada \\
       \textit{Replicator} & \textit{August 2023} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
-      \textbf{London Politica} & London, United Kingdom (remote) \\
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{London Politica} & London, UK (remote) \\
       \textit{Lead Editor for North America} & \textit{Sept. 2021 -- July 2023} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
-      \textbf{Foundation for International Understanding Through Students} & Seattle, WA \\
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Foundation for International Understanding Through} & Seattle, WA \\
+      \textbf{Students} & \\
       \textit{Mentor} & \textit{March 2022 -- June 2022} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
-      \textbf{Comité des Affaires Internationales de l'Université de Montréal} & Montréal, Canada \\
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Comité des Affaires Internationales de} & Montréal, Canada \\
+      \textbf{l'Université de Montréal} & \\
       \textit{Vice President (Innovation) and Staff Writer} & \textit{October 2019 -- April 2022} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Passerelle+ Program} & Montréal, Canada \\
       \textit{Mentor} & \textit{September 2020 -- December 2022} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{CISM 89.3} & Montréal, Canada \\
       \textit{Radio Host -- Cent Digressions} & \textit{Jan. 2021 -- Sept. 2021} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Newspective} & New York, USA (remote) \\
       \textit{Deputy World News Editor} & \textit{April 2020 -- Sept. 2021} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Délégation des Nations Unies de l'Université de Montréal} & Montréal, Canada \\
       \textit{Member} & \textit{Sept. 2019 -- April 2020} \\
     \end{tabular*}\vspace{-5pt}
@@ -408,7 +420,7 @@ header-includes:
 # Additional Training
 
 \begin{description}[font=$\bullet$]
-\item {SPS Summer Academy on (In)Equality in Europe -- \textbf{European University Institute}, September 2022}
+\item {SPS Summer Academy on (In)Equality in Europe -- \textbf{European University Institute}, Sept. 2022}
 \vspace{-5pt}
 \item {Introduction to Python -- \textbf{Datacamp}, December 2021}
 \vspace{-5pt}
