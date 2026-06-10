@@ -1,0 +1,9 @@
+---
+title: "Higher Education, Higher Stakes: Education's Role in Shaping Redistribution Preferences and Vote Choice in Canada"
+collection: talks
+type: "Talk"
+permalink: /talks/2024-03-22-csdc-higher-education
+venue: "CSDC Graduate Students Conference"
+date: 2024-03-22
+location: "Québec City, Québec, Canada"
+---

@@ -229,7 +229,7 @@ header-includes:
 \vspace{2pt}
 \item\small{\textbf{``Two Faces of Redistribution in Canadian Party Competition: Welfare-State Support, Deservingness, and Liberal-Centred Party Dyads.''}{: Conférence C-Dem, Toronto, Ontario, Canada, 6 mai 2026. \vspace{-2pt}}}
 \vspace{2pt}
-\item\small{\textbf{``Multilevel Politics in Quebec.''}{: Cornell Political Behavior Workshop, Ithaca, NY, USA, mars 2026. \vspace{-2pt}}}
+\item\small{\textbf{``Multilevel Politics in Quebec.''}{: Cornell Political Behavior Workshop, Ithaca, NY, USA, 18 mars 2026. \vspace{-2pt}}}
 \vspace{2pt}
 \item\small{\textbf{``Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects.''}{: American Political Science Association, Vancouver, C.-B., Canada, 2025. \vspace{-2pt}}}
 \vspace{2pt}

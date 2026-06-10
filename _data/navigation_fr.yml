@@ -9,5 +9,8 @@ main:
   - title: "Conférences"
     url: /fr/talks/
 
+  - title: "Dans les médias"
+    url: /fr/media/
+
   - title: "CV"
     url: /fr/cv/
