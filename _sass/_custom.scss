@@ -295,3 +295,8 @@
   background: $primary-color;
   color: #fff !important;
 }
+
+/* Keep the page background explicitly white in both languages. */
+html, body, .masthead, .page__footer {
+  background-color: #fff;
+}
