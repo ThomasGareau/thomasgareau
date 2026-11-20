@@ -12,5 +12,8 @@ main:
   - title: "Dans les médias"
     url: /fr/media/
 
+  - title: "Enseignement"
+    url: /fr/teaching/
+
   - title: "CV"
     url: /fr/cv/

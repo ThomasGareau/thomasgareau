@@ -14,7 +14,7 @@ name                     : &name "Thomas Gareau-Paquette"
 description              : &description "Welcome to my website! I am a Ph.D. student at Cornell University's Department of Government."
 url                      : https://thomasgp.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "thomasgareau/thomasgareau.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ThomasGareau/thomasgareau" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,6 +25,8 @@ author:
   name             : "Thomas Gareau-Paquette"
   pronouns         : # example: "she/her"  
   bio              : "I am a Ph.D. student at Cornell University's Department of Government."
+  bio_fr           : "Doctorant au Department of Government de l’Université Cornell."
+  employer_fr      : "Université Cornell"
   location         : "Ithaca, NY"
   employer         : "Cornell University"
   uri              : # URL
@@ -147,6 +149,8 @@ include:
   - _pages
   - files
 exclude:
+  - PRODUCT.md
+  - DESIGN.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

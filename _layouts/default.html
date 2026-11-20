@@ -5,13 +5,14 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{% if page.url contains "/fr/" %}fr{% else %}en{% endif %}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="{{ page.page_class }}">
+    <a class="skip-link" href="#main">{% if page.url contains "/fr/" %}Aller au contenu{% else %}Skip to content{% endif %}</a>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

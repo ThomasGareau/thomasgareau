@@ -20,47 +20,19 @@
   {% assign brand_url = '/fr/' %}
 {% endif %}
 
-{% case current_path %}
-  {% when '/', '/about/', '/about.html' %}
-    {% if is_fr %}
-      {% assign switch_url = '/' %}
-    {% else %}
-      {% assign switch_url = '/fr/' %}
-    {% endif %}
-
-  {% when '/publications/' %}
-    {% assign switch_url = '/fr/publications/' %}
-  {% when '/fr/publications/' %}
-    {% assign switch_url = '/publications/' %}
-
-  {% when '/talks/' %}
-    {% assign switch_url = '/fr/talks/' %}
-  {% when '/fr/talks/' %}
-    {% assign switch_url = '/talks/' %}
-
-  {% when '/cv/' %}
-    {% assign switch_url = '/fr/cv/' %}
-  {% when '/fr/cv/' %}
-    {% assign switch_url = '/cv/' %}
-
-  {% when '/software/' %}
-    {% assign switch_url = '/fr/software/' %}
-  {% when '/fr/software/' %}
-    {% assign switch_url = '/software/' %}
-
-  {% else %}
-    {% if is_fr %}
-      {% assign switch_url = '/' %}
-    {% else %}
-      {% assign switch_url = '/fr/' %}
-    {% endif %}
-{% endcase %}
+{% if is_fr %}
+  {% assign switch_url = current_path | remove_first: '/fr' %}
+{% else %}
+  {% assign switch_url = current_path | prepend: '/fr' %}
+{% endif %}
+{% unless current_path == '/' or current_path == '/fr/' or current_path == '/publications/' or current_path == '/fr/publications/' or current_path == '/talks/' or current_path == '/fr/talks/' or current_path == '/cv/' or current_path == '/fr/cv/' or current_path == '/software/' or current_path == '/fr/software/' or current_path == '/media/' or current_path == '/fr/media/' or current_path == '/teaching/' or current_path == '/fr/teaching/' %}
+  {% if is_fr %}{% assign switch_url = '/' %}{% else %}{% assign switch_url = '/fr/' %}{% endif %}
+{% endunless %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="primary-navigation" class="dossier-nav" aria-label="{% if is_fr %}Navigation principale{% else %}Main navigation{% endif %}">
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ brand_url }}">{{ site.title }}</a></li>
           {% for link in nav_items %}
@@ -69,9 +41,9 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a {% if current_path == link.url %}aria-current="page"{% endif %} href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item masthead__menu-item--lang"><a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lang"><a lang="{% if is_fr %}en{% else %}fr{% endif %}" hreflang="{% if is_fr %}en{% else %}fr{% endif %}" href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

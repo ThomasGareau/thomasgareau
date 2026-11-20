@@ -12,5 +12,8 @@ main:
   - title: "In the Media"
     url: /media/
 
+  - title: "Teaching"
+    url: /teaching/
+
   - title: "CV"
     url: /cv/
