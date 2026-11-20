@@ -3,29 +3,33 @@ output:
   pdf_document:
     latex_engine: pdflatex
     keep_tex: false
-geometry: "left=1.22in,right=1.22in,top=0.8in,bottom=0.8in"
+geometry: "left=0.9in,right=0.9in,top=0.55in,bottom=0.55in"
 header-includes:
-  - \usepackage{array}
-  - \usepackage{latexsym}
-  - \usepackage{titlesec}
-  - \usepackage{marvosym}
-  - \usepackage{enumitem}
-  - \usepackage{fancyhdr}
-  - \pagestyle{fancy}
-  - \fancyhf{}
-  - \fancyfoot{}
-  - \renewcommand{\headrulewidth}{0pt}
-  - \renewcommand{\footrulewidth}{0pt}
-  - \urlstyle{rm}
-  - \raggedbottom
-  - \raggedright
-  - \setlength{\tabcolsep}{0in}
-  - \titleformat{\section}{\vspace{-10pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+  - |
+    ```{=latex}
+    \usepackage{array}
+    \usepackage{latexsym}
+    \usepackage{titlesec}
+    \usepackage{marvosym}
+    \usepackage{enumitem}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \fancyfoot{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \usepackage{url}
+    \urlstyle{rm}
+    \raggedbottom
+    \raggedright
+    \setlength{\tabcolsep}{0in}
+    \titleformat{\section}{\vspace{-10pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+    ```
 ---
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Thomas Gareau-Paquette}} & Email: \href{mailto:tg454@cornell.edu}{tg454@cornell.edu}\\
-  \href{https://thomasgp.com}{thomasgp.com} & \textbf{{Last updated: June 2026}}\\
+  \href{https://thomasgp.com}{thomasgp.com} & \textbf{{Last updated: November 2026}}\\
 \end{tabular*}
 
 \vspace{1pt}
@@ -144,7 +148,15 @@ header-includes:
 
 \begin{description}
 
-    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2025). De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales? \textit{Canadian Journal of Political Science/Revue Canadienne de science politique} (FirstView, 1--20).\\
+    \item[] \textbf{Gareau-Paquette, T.}, Taylor, M., \& Daoust, J.-F. (2026). Different Arenas, Different Votes? Electoral Behavior in Quebec’s Weakly Integrated Multilevel Party System. \textit{Publius: The Journal of Federalism}, pjag048. \href{https://doi.org/10.1093/publius/pjag048}{doi:10.1093/publius/pjag048}.
+
+    \item[] Stolle, D., \textbf{Gareau-Paquette, T.}, \& Harell, A. (2026). From local to global? Assessing European solidarity through the lens of Ukraine aid. \textit{International Politics}. \href{https://doi.org/10.1057/s41311-026-00812-2}{doi:10.1057/s41311-026-00812-2}.
+
+    \item[] Bélanger, É., \& \textbf{Gareau-Paquette, T.} (2026). The 2022 Provincial Election in Quebec. \textit{Canadian Political Science Review}, 19(1), 50--61. \href{https://doi.org/10.24124/c677/20262057}{doi:10.24124/c677/20262057}.
+
+    \item[] Enns, P. K., Farah, L., \textbf{Gareau-Paquette, T.}, \& Miner, C. L. (2026). A District-Level Forecast of the 2026 U.S. House of Representatives Midterm Elections. \textit{PS: Political Science \& Politics}, accepted manuscript, 1--21. \href{https://doi.org/10.1017/S1049096526103072}{doi:10.1017/S1049096526103072}.
+
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2026). De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales? \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 59(1), 61--80. \href{https://doi.org/10.1017/S0008423925100942}{doi:10.1017/S0008423925100942}.\\
     \textit{\small [Increasingly Worried: Who Are the Quebecers Who Consider French to Be Threatened and What Are the Electoral Consequences?]}
 
     \item[] Bélanger, É., Mongrain, P., \textbf{Gareau-Paquette, T.}, \& Mahéo, V.A. (2025). A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election. \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 58(2), 277--296.
@@ -152,11 +164,11 @@ header-includes:
     \item[] \textbf{Gareau-Paquette, T.}, \& Daoust, J.-F. (2024). Géographie politique de l'opinion publique québécoise et réévaluation du ``mystère'' de Québec. \textit{Canadian Journal of Political Science/Revue Canadienne de science politique}, 57(4), 816--841.\\
     \textit{\small [Political Geography of Québec Public Opinion and Reassessment of the ``Mystery'' of Québec City]}
 
-    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). How Attitudes Toward Independence Reshaped Scottish Elections: A Longitudinal Analysis (1999--2021). \textit{Nations and Nationalism}.
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). How attitudes towards independence reshaped Scottish elections: A longitudinal analysis (1999--2021). \textit{Nations and Nationalism}, 32(1), 206--215 (issue published in 2026). \href{https://doi.org/10.1111/nana.13062}{doi:10.1111/nana.13062}.
 
     \item[] \textbf{Gareau-Paquette, T.}, Léal, A., Leblanc, J., Taylor, M., Vandewalle, V., \& Dassonneville, R. (2024). Voting for Women in Recent Canadian Elections. \textit{French Politics}, 22(1), 45--63.
 
-    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2023). Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000--2021). \textit{Regional \& Federal Studies}, 1--26.
+    \item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} (2024). Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000--2021). \textit{Regional \& Federal Studies}, 34(5), 781--806. \href{https://doi.org/10.1080/13597566.2023.2233422}{doi:10.1080/13597566.2023.2233422}.
 
 \end{description}
 
@@ -197,25 +209,30 @@ header-includes:
 
 \begin{description}
 
+\item[] \textit{Subnationalism and the resilience of the Quebec welfare state}. With Olivier Jacques. Revise and resubmit, \textit{Regional \& Federal Studies}.
+
+\item[] Lucas, J., Loewen, P., \textbf{Gareau-Paquette, T.}, \& Sheffer, L. \textit{Citizen Responses to Elite Democratic Realism}.
+
+\item[] \textbf{Gareau-Paquette, T.}, \& Jacques, O. \textit{Losing the Tenants: Cohort Replacement and the Remaking of Social Democracy's Renter Coalition in Twelve OECD Democracies, 1955--2022}.
+
 \item[] \textbf{Gareau-Paquette, T.}, Lucas, J., \& Loewen, P. \textit{Studying the Correlates of Vote Choice in Small Democracies}.
 
-\item[] Stolle, D., \textbf{Gareau-Paquette, T.}, \& Harell, A. \textit{From Local to Global: Assessing European Solidarity through the Lens of Ukraine Aid}. Preprint.
-
-\item[] Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., \textbf{Gareau-Paquette, T.}, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., \& Dassonneville, R. \textit{Do Political Surveys Overestimate Affective Polarization? Evidence From Germany and the United States}. Revise and Resubmit.
-
-\item[] Bélanger, E., \& \textbf{Gareau-Paquette, T.} \textit{The 2022 Quebec Provincial Elections}.
-
-\item[] Daoust, J.-F., \& \textbf{Gareau-Paquette, T.} \textit{The Politics of Language and Public Opinion in Quebec}.
+\item[] Jabbour, A., Cakir, S., Coulombe, M., Fréchet, N., \textbf{Gareau-Paquette, T.}, Leblanc, J., Liang, B., Pautonnier, V., Rafie, T., Taylor, M., Vandewalle, V., Bergeron, M., Kostelka, F., \& Dassonneville, R. \textit{Do Political Surveys Overestimate Affective Polarization? Evidence From Germany and the United States}. Revise and Resubmit, \textit{The Journal of Politics}.
 
 \item[] \textbf{Gareau-Paquette, T.}, \& Jacques, O. \textit{The House Always Wins? Housing Affordability and Party Politics in Nine Post-Industrial Democracies}.
 
-\item[] Enns, P., \& \textbf{Gareau-Paquette, T.} \textit{Forecasting the 2026 Midterms}.
-
 \item[] Mahéo, V.A., \& \textbf{Gareau-Paquette, T.} \textit{Participating in Integration Activities and Participating in Quebec Society: A Study of Integration Programs and their Policy Feedback Effects}.
 
-\item[] \textbf{Gareau-Paquette, T.}, \& Stolle, D. \textit{Linking Europe's Aid to Public Support towards Ukraine}.
-
 \end{description}
+
+\vspace{1pt}
+
+# Teaching
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Cornell University}, GOVT 2161: Public Opinion. Teaching Assistant, Spring 2026.
+  \item \textbf{Cornell University}, GOVT 1111: Introduction to American Government and Politics. Teaching Assistant, Fall 2025.
+\end{itemize}
 
 \vspace{1pt}
 
@@ -276,6 +293,12 @@ header-includes:
 # Honors and Awards
 
 \begin{description}[font=$\bullet$]
+
+\item {Louise-Dandurand Prize (with Jean-François Daoust) -- \textbf{Fonds de recherche du Québec} -- 2026}
+
+\item {Graduate Fellow -- \textbf{Institute for European Studies, Cornell University} -- 2026--2027}
+
+\item {Graduate Student Fellow -- \textbf{Center on Global Democracy, Cornell University} -- 2026--2027}
 
 \item {CMHC-SSHRC Housing Research Doctoral Scholarship -- \textbf{CMHC \& SSHRC} -- 2025}
 
@@ -359,8 +382,14 @@ header-includes:
 
     \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
+      \textbf{Force Jeunesse} & Montréal, Canada \\
+      \textit{Volunteer Contributor, Survey Design} & \textit{2026} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Revue Possibles} & Montréal, Canada \\
-      \textit{Corrector} & \textit{April 2022 -- Present} \\
+      \textit{Corrector} & \textit{April 2022 -- May 2025} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
