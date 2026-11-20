@@ -1,13 +1,10 @@
 ---
 permalink: /
 author_profile: true
-page_class: home
 redirect_from:
   - /about/
   - /about.html
 ---
-
-<div class="home-heading"><p class="eyebrow">Political science / Cornell University</p><h1>Thomas<br>Gareau-Paquette<span class="name-period">.</span></h1></div>
 
 I am a PhD student in the [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) at **Cornell University**.
 
@@ -17,8 +14,6 @@ My work investigates how changing economic structures and labour markets reshape
 
 ## Affiliations & recognition
 
-<div class="record"><span class="record-date">2026–2027</span><p>Graduate Fellow at the <strong>Institute for European Studies</strong> and Graduate Student Fellow at the <strong>Center on Global Democracy</strong>, Cornell University.</p></div>
+<p><strong>2026–2027.</strong> Graduate Fellow at the <strong>Institute for European Studies</strong> and Graduate Student Fellow at the <strong>Center on Global Democracy</strong>, Cornell University.</p>
 
-<div class="record"><span class="record-date">2026</span><p><strong>Louise-Dandurand Prize</strong>, Fonds de recherche du Québec, with Jean-François Daoust.</p></div>
-
-<div class="home-links"><a href="/publications/">Publications <span aria-hidden="true">↗</span></a><a href="/teaching/">Teaching <span aria-hidden="true">↗</span></a><a href="/files/cv.pdf">English CV <span aria-hidden="true">↓</span></a></div>
+<p><strong>2026.</strong> <strong>Louise-Dandurand Prize</strong>, Fonds de recherche du Québec, with Jean-François Daoust.</p>

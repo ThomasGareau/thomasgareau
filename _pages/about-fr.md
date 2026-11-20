@@ -1,10 +1,7 @@
 ---
 permalink: /fr/
 author_profile: true
-page_class: home
 ---
-
-<div class="home-heading"><p class="eyebrow">Science politique / Université Cornell</p><h1>Thomas<br>Gareau-Paquette<span class="name-period">.</span></h1></div>
 
 Je suis doctorant au [Department of Government](https://government.cornell.edu/thomas-gareau-paquette-0) de l'**Université Cornell**.
 
@@ -14,8 +11,6 @@ Mes recherches portent sur la manière dont les transformations des structures �
 
 ## Affiliations et distinctions
 
-<div class="record"><span class="record-date">2026–2027</span><p>Graduate Fellow à l’<strong>Institute for European Studies</strong> et Graduate Student Fellow au <strong>Center on Global Democracy</strong>, Université Cornell.</p></div>
+<p><strong>2026–2027.</strong> Graduate Fellow à l’<strong>Institute for European Studies</strong> et Graduate Student Fellow au <strong>Center on Global Democracy</strong>, Université Cornell.</p>
 
-<div class="record"><span class="record-date">2026</span><p><strong>Prix Louise-Dandurand</strong> du Fonds de recherche du Québec, avec Jean-François Daoust.</p></div>
-
-<div class="home-links"><a href="/fr/publications/">Publications <span aria-hidden="true">↗</span></a><a href="/fr/teaching/">Enseignement <span aria-hidden="true">↗</span></a><a href="/files/cv-fr.pdf">CV en français <span aria-hidden="true">↓</span></a></div>
+<p><strong>2026.</strong> <strong>Prix Louise-Dandurand</strong> du Fonds de recherche du Québec, avec Jean-François Daoust.</p>
