@@ -362,7 +362,7 @@ header-includes:
     \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.67\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.27\textwidth}@{}}
       \textbf{Cornell University, Department of Government} & Ithaca, NY \\
-      \textit{Graduate Student Representative (American Politics Subfield)} & \textit{2025 -- Present} \\
+      \textit{Graduate Student Representative (American Politics Subfield)} & \textit{2025 -- 2027} \\
     \end{tabular*}\vspace{-5pt}
 
     \vspace{-1pt}\item
