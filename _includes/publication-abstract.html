@@ -1,0 +1,17 @@
+{% assign paper_abstract = site.data.publication_abstracts[include.id] %}
+{% if paper_abstract %}
+  {% assign abstract_language = 'en' %}
+  {% assign abstract_label = 'Abstract' %}
+  {% if include.lang == 'fr' %}
+    {% if paper_abstract.fr %}
+      {% assign abstract_language = 'fr' %}
+      {% assign abstract_label = 'Résumé' %}
+    {% else %}
+      {% assign abstract_label = 'Résumé (en anglais)' %}
+    {% endif %}
+  {% endif %}
+  <details class="publication-abstract">
+    <summary>{{ abstract_label }}</summary>
+    <p lang="{{ abstract_language }}">{{ paper_abstract[abstract_language] | escape }}</p>
+  </details>
+{% endif %}

@@ -15,60 +15,70 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
     <span class="pub-links">
       <a href="https://doi.org/10.1093/publius/pjag048" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="multilevel-quebec" lang="en" %}
   </li>
 
   <li>Stolle, D., <strong>Gareau-Paquette, T.</strong>, &amp; Harell, A. (2026). From local to global? Assessing European solidarity through the lens of Ukraine aid. <em>International Politics</em>.
     <span class="pub-links">
       <a href="https://doi.org/10.1057/s41311-026-00812-2" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="ukraine-solidarity" lang="en" %}
   </li>
 
   <li>Bélanger, É., &amp; <strong>Gareau-Paquette, T.</strong> (2026). The 2022 Provincial Election in Quebec. <em>Canadian Political Science Review</em>, 19(1), 50–61.
     <span class="pub-links">
       <a href="https://doi.org/10.24124/c677/20262057" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="quebec-election-2022" lang="en" %}
   </li>
 
   <li>Enns, P. K., Farah, L., <strong>Gareau-Paquette, T.</strong>, &amp; Miner, C. L. (2026). A District-Level Forecast of the 2026 U.S. House of Representatives Midterm Elections. <em>PS: Political Science &amp; Politics</em>, accepted manuscript, 1–21.
     <span class="pub-links">
       <a href="https://doi.org/10.1017/S1049096526103072" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="house-forecast-2026" lang="en" %}
   </li>
 
   <li>Daoust, J.-F., &amp; <strong>Gareau-Paquette, T.</strong> (2026). De plus en plus inquiets : qui sont les Québécois qui considèrent le français comme menacé et quelles en sont les conséquences électorales? <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>, 59(1), 61–80. <br><em>[Increasingly Worried: Who Are the Quebecers Who Consider French to Be Threatened and What Are the Electoral Consequences?]</em>
     <span class="pub-links">
       <a href="https://doi.org/10.1017/S0008423925100942" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="french-threat" lang="en" %}
   </li>
 
   <li>Bélanger, É., Mongrain, P., <strong>Gareau-Paquette, T.</strong>, &amp; Mahéo, V.A. (2025). A Party that Went Viral? The Drivers of Support for the Parti Conservateur du Québec in the 2022 Election. <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>, 58(2), 277–296.
     <span class="pub-links">
       <a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/party-that-went-viral-the-drivers-of-support-for-the-parti-conservateur-du-quebec-in-the-2022-election/8EB77CFC3379440C8B8EA2191F35F8E3" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="pcq-2022" lang="en" %}
   </li>
 
   <li><strong>Gareau-Paquette, T.</strong>, &amp; Daoust, J.-F. (2024). Géographie politique de l'opinion publique québécoise et réévaluation du “mystère” de Québec. <em>Canadian Journal of Political Science/Revue Canadienne de science politique</em>, 57(4), 816–841. <br><em>[Political Geography of Québec Public Opinion and Reassessment of the “Mystery” of Québec City]</em>
     <span class="pub-links">
       <a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/geographie-politique-de-lopinion-publique-quebecoise-et-reevaluation-du-mystere-de-quebec/62A379ADEA73CE3A323EB8E224DF9F47" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="quebec-geography" lang="en" %}
   </li>
 
   <li>Daoust, J.-F., &amp; <strong>Gareau-Paquette, T.</strong> (2024). How attitudes towards independence reshaped Scottish elections: A longitudinal analysis (1999–2021). <em>Nations and Nationalism</em>, 32(1), 206–215 (issue published in 2026).
     <span class="pub-links">
       <a href="https://doi.org/10.1111/nana.13062" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="scottish-independence" lang="en" %}
   </li>
 
   <li><strong>Gareau-Paquette, T.</strong>, Léal, A., Leblanc, J., Taylor, M., Vandewalle, V., &amp; Dassonneville, R. (2024). Voting for Women in Recent Canadian Elections. <em>French Politics</em>, 22(1), 45–63.
     <span class="pub-links">
       <a href="https://doi.org/10.1057/s41253-024-00236-5" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="voting-for-women" lang="en" %}
   </li>
 
   <li>Daoust, J.-F., &amp; <strong>Gareau-Paquette, T.</strong> (2024). Is Quebec Independence Still Key in Making Sense of Canadian Elections? A Longitudinal Analysis (2000–2021). <em>Regional &amp; Federal Studies</em>, 34(5), 781–806.
     <span class="pub-links">
       <a href="https://doi.org/10.1080/13597566.2023.2233422" target="_blank">[Read]</a>
     </span>
+    {% include publication-abstract.html id="quebec-independence" lang="en" %}
   </li>
 </ul>
 

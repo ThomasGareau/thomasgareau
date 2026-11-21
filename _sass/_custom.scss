@@ -300,3 +300,24 @@
 html, body, .masthead, .page__footer {
   background-color: #fff;
 }
+
+/* Abstract disclosures use the existing publication typography and colours. */
+.publication-abstract {
+  margin-top: 0.65em;
+  summary {
+    width: fit-content;
+    cursor: pointer;
+    color: $link-color;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    &:focus-visible { outline: 2px solid $link-color; outline-offset: 4px; }
+  }
+  p {
+    margin: 0.7em 0 0;
+    max-width: 75ch;
+    font-size: 0.95em;
+    line-height: 1.65;
+  }
+}
