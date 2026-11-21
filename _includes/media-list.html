@@ -1,0 +1,12 @@
+{% assign media_items = site.data.media | sort: "date" | reverse %}
+<ul class="media-list" role="list">
+  {% for item in media_items %}
+  <li class="media-list__item">
+    <div class="media-list__meta">
+      <span class="media-list__outlet">{{ item.outlet | escape }}</span>
+      <time datetime="{{ item.date }}">{% if page.url contains '/fr/' %}{{ item.date_fr }}{% else %}{{ item.date_en }}{% endif %}</time>
+    </div>
+    <h2 class="media-list__title" lang="{{ item.language }}"><a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.title | escape }}</a></h2>
+  </li>
+  {% endfor %}
+</ul>

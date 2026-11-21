@@ -153,6 +153,69 @@
   }
 }
 
+/* Media coverage: unbulleted rows, separate from publication citations. */
+.media-list {
+  list-style: none;
+  margin: 1.5em 0 0;
+  padding: 0;
+
+  .media-list__item {
+    display: grid;
+    gap: 0.5em;
+    margin: 0;
+    padding: 1.25em 0;
+    border-top: 1px solid $border-color;
+  }
+
+  .media-list__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em 1em;
+    align-items: baseline;
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: $gray;
+  }
+
+  .media-list__outlet {
+    color: $darker-gray;
+    font-weight: 600;
+  }
+
+  .media-list__title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5;
+
+    a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
+      text-decoration-color: rgba($link-color, 0.3);
+
+      &:hover { text-decoration-color: currentColor; }
+      &:focus-visible { outline: 2px solid $link-color; outline-offset: 4px; }
+    }
+  }
+
+  @media (min-width: $medium) {
+    .media-list__item {
+      grid-template-columns: 9em minmax(0, 1fr);
+      gap: 1.5em;
+      align-items: baseline;
+    }
+
+    .media-list__meta {
+      display: block;
+
+      time { display: block; }
+    }
+  }
+}
+
 /*
    Talk / conference list refinements
    ========================================================================== */
