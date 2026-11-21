@@ -5,6 +5,6 @@ permalink: /media/
 author_profile: true
 ---
 
-Selected coverage of my research and media interviews.
+Selected media coverage of my research.
 
 {% include media-list.html %}

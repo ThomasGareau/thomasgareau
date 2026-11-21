@@ -5,6 +5,6 @@ permalink: /fr/media/
 author_profile: true
 ---
 
-Sélection d’articles sur mes recherches et d’entrevues dans les médias.
+Sélection d’articles sur mes recherches dans les médias.
 
 {% include media-list.html %}
